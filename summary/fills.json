@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "vehicle": "VICTORIS",
+    "dateMillis": 1790517910851,
+    "fuel": "CNG",
+    "quantity": 6.27,
+    "totalCost": 545.36,
+    "isFull": true,
+    "station": ""
+  }
+]

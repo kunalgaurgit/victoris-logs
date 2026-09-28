@@ -220,3 +220,11 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-09-28 20:14:33.960 INFO DriveService: Connected to OBD
+2026-09-28 20:15:41.845 INFO DriveService: Connected to OBD
+2026-09-28 20:28:42.630 INFO DriveService: Trip saved: 8.583075000000001 km
+2026-09-28 20:35:52.755 INFO DriveService: Connected to OBD
+2026-09-28 20:36:17.418 INFO DriveService: Connected to OBD
+2026-09-28 21:13:41.082 INFO DriveService: Trip saved: 16.49131444444443 km
+2026-09-28 21:14:21.749 INFO Sync: Synced trip 1790606739340
+2026-09-28 21:14:26.926 INFO Sync: Synced trip 1790607976175

@@ -1,0 +1,19 @@
+{
+  "startMs": 1790648660083,
+  "endMs": 1790648930639,
+  "petrolKm": 0,
+  "cngKm": 0.14371472222222217,
+  "petrolRawL": 0.011078820302869474,
+  "cngRawKg": 0.04614713604651159,
+  "econScore": 100,
+  "avgSpeed": 1.9122584603557113,
+  "maxSpeed": 21,
+  "costRs": 6.174764162287574,
+  "startLat": 28.62965353,
+  "startLon": 77.31859367,
+  "endLat": 28.6296127,
+  "endLon": 77.31860014,
+  "trackFile": "1790648660083.csv",
+  "vehicle": "VICTORIS",
+  "fills": []
+}

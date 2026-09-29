@@ -1265,3 +1265,5 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
 2026-09-29 16:01:07.730 INFO DriveService: Connected to OBD
+2026-09-29 16:44:24.708 INFO DriveService: Trip saved: 24.799713055555603 km
+2026-09-29 16:44:31.557 INFO Sync: Synced trip 1790677865317

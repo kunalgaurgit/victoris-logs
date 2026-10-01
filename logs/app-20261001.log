@@ -138,3 +138,6 @@ java.io.IOException: Broken pipe
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-01 18:43:13.990 INFO DriveService: Connected to OBD
+2026-10-01 19:15:50.382 INFO DriveService: Trip saved: 17.77727611111113 km
+2026-10-01 19:15:57.788 INFO Sync: Synced trip 1790860391564

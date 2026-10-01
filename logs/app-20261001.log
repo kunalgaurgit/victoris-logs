@@ -27,3 +27,5 @@ Caused by: java.io.IOException
 2026-10-01 08:41:22.714 INFO DriveService: Connected to OBD
 2026-10-01 08:41:44.416 INFO DriveService: Trip saved: 0.08173055555555557 km
 2026-10-01 08:41:48.852 INFO Sync: Synced trip 1790824279226
+2026-10-01 09:27:21.146 INFO DriveService: Trip saved: 22.99429777777775 km
+2026-10-01 09:27:25.638 INFO Sync: Synced trip 1790824304406

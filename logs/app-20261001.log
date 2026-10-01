@@ -236,3 +236,7 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"I
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-01 19:18:19.799 INFO DriveService: Reconnected to OBD in loop
+2026-10-01 19:21:03.469 INFO DriveService: Connected to OBD
+2026-10-01 19:46:02.964 INFO DriveService: Trip saved: 7.37370694444445 km
+2026-10-01 19:46:08.204 INFO Sync: Synced trip 1790862662163

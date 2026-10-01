@@ -1,0 +1,29 @@
+2026-10-01 08:40:15.852 ERROR DriveService: Connection failed, reconnecting
+java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.victoris.ledger.obd.SppTransport$connect$2.invokeSuspend(SppTransport.kt:41)
+	at com.victoris.ledger.obd.SppTransport$connect$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$connect$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-7f9f9556023a562beb7768b71c75dc8d33f48d6f:1)
+	at com.victoris.ledger.obd.SppTransport.connect(SppTransport.kt:27)
+	at com.victoris.ledger.obd.DriveService.connectTransport(DriveService.kt:749)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:404)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:94)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+Caused by: java.io.IOException
+	at android.bluetooth.BluetoothDevice.createRfcommSocket(BluetoothDevice.java:3610)
+	... 20 more
+
+2026-10-01 08:41:22.714 INFO DriveService: Connected to OBD
+2026-10-01 08:41:44.416 INFO DriveService: Trip saved: 0.08173055555555557 km
+2026-10-01 08:41:48.852 INFO Sync: Synced trip 1790824279226

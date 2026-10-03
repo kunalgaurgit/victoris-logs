@@ -1,0 +1,15 @@
+{
+  "startMs": 1791033527493,
+  "endMs": 1791033847082,
+  "petrolKm": 0,
+  "cngKm": 1.078368611111111,
+  "petrolRawL": 5.685625827512214E-4,
+  "cngRawKg": 0.07146845755813952,
+  "econScore": 93.58579881656804,
+  "avgSpeed": 12.147248497288704,
+  "maxSpeed": 48,
+  "costRs": 7.868875780808919,
+  "trackFile": "1791033527493.csv",
+  "vehicle": "WAGONR",
+  "fills": []
+}

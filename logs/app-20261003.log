@@ -1,0 +1,3 @@
+2026-10-03 18:48:48.911 INFO DriveService: Connected to OBD
+2026-10-03 18:54:07.086 INFO DriveService: Trip saved: 1.078368611111111 km
+2026-10-03 18:54:11.530 INFO Sync: Synced trip 1791033527493

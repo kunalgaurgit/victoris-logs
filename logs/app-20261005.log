@@ -1303,3 +1303,16 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-05 22:09:01.018 INFO DriveService: Connected to OBD
+2026-10-05 22:09:01.019 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-05 22:10:19.216 INFO DriveService: rounds: avg 781 ms, fast avg 452 ms, multi=on
+2026-10-05 22:11:25.208 INFO DriveService: rounds: avg 659 ms, fast avg 381 ms, multi=on
+2026-10-05 22:12:31.770 INFO DriveService: rounds: avg 665 ms, fast avg 381 ms, multi=on
+2026-10-05 22:13:37.542 INFO DriveService: rounds: avg 657 ms, fast avg 382 ms, multi=on
+2026-10-05 22:14:43.253 INFO DriveService: rounds: avg 657 ms, fast avg 374 ms, multi=on
+2026-10-05 22:15:49.063 INFO DriveService: rounds: avg 658 ms, fast avg 380 ms, multi=on
+2026-10-05 22:16:56.324 INFO DriveService: rounds: avg 672 ms, fast avg 378 ms, multi=on
+2026-10-05 22:18:02.285 INFO DriveService: rounds: avg 659 ms, fast avg 382 ms, multi=on
+2026-10-05 22:19:08.192 INFO DriveService: rounds: avg 659 ms, fast avg 385 ms, multi=on
+2026-10-05 22:20:14.948 INFO DriveService: rounds: avg 667 ms, fast avg 387 ms, multi=on
+2026-10-05 22:21:22.080 INFO DriveService: rounds: avg 671 ms, fast avg 394 ms, multi=on

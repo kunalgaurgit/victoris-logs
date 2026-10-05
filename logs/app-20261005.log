@@ -1316,3 +1316,18 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 2026-10-05 22:19:08.192 INFO DriveService: rounds: avg 659 ms, fast avg 385 ms, multi=on
 2026-10-05 22:20:14.948 INFO DriveService: rounds: avg 667 ms, fast avg 387 ms, multi=on
 2026-10-05 22:21:22.080 INFO DriveService: rounds: avg 671 ms, fast avg 394 ms, multi=on
+2026-10-05 22:22:28.318 INFO DriveService: rounds: avg 662 ms, fast avg 388 ms, multi=on
+2026-10-05 22:22:43.381 INFO DriveService: Trip saved: 5.209557499999999 km
+2026-10-05 22:22:51.653 ERROR Sync: Failed to upload CSV trips/VICTORIS/2026-10-05_1791218339936.csv
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:119)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-05 22:22:53.250 INFO Sync: Synced trip 1791218339936

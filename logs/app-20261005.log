@@ -1963,3 +1963,6 @@ java.io.IOException: Broken pipe
 2026-10-05 22:52:32.169 INFO DriveService: Reconnected to OBD in loop
 2026-10-05 22:53:22.356 INFO DriveService: rounds: avg 1889 ms, fast avg 848 ms, multi=off
 2026-10-05 22:56:22.612 INFO DriveService: rounds: avg 1802 ms, fast avg 1073 ms, multi=off
+2026-10-05 22:58:29.367 INFO DriveService: rounds: avg 1267 ms, fast avg 749 ms, multi=off
+2026-10-05 22:58:41.207 INFO DriveService: Trip saved: 0.11437416666666667 km
+2026-10-05 22:58:46.131 INFO Sync: Synced trip 1791220869508

@@ -1,0 +1,74 @@
+2026-10-05 19:59:24.435 INFO DriveService: Connected to OBD
+2026-10-05 19:59:24.574 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-05 19:59:30.106 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-05 20:01:44.617 INFO DriveService: rounds: avg 1400 ms, fast avg 914 ms, multi=off
+2026-10-05 20:03:49.216 INFO DriveService: rounds: avg 1245 ms, fast avg 818 ms, multi=off
+2026-10-05 20:05:51.826 INFO DriveService: rounds: avg 1226 ms, fast avg 803 ms, multi=off
+2026-10-05 20:07:49.807 INFO DriveService: rounds: avg 1179 ms, fast avg 766 ms, multi=off
+2026-10-05 20:09:46.460 INFO DriveService: rounds: avg 1166 ms, fast avg 765 ms, multi=off
+2026-10-05 20:11:44.692 INFO DriveService: rounds: avg 1182 ms, fast avg 778 ms, multi=off
+2026-10-05 20:13:42.828 INFO DriveService: rounds: avg 1181 ms, fast avg 770 ms, multi=off
+2026-10-05 20:15:39.507 INFO DriveService: rounds: avg 1166 ms, fast avg 765 ms, multi=off
+2026-10-05 20:17:36.502 INFO DriveService: rounds: avg 1169 ms, fast avg 765 ms, multi=off
+2026-10-05 20:19:36.970 INFO DriveService: rounds: avg 1204 ms, fast avg 784 ms, multi=off
+2026-10-05 20:21:34.084 INFO DriveService: rounds: avg 1171 ms, fast avg 767 ms, multi=off
+2026-10-05 20:23:33.615 INFO DriveService: rounds: avg 1195 ms, fast avg 784 ms, multi=off
+2026-10-05 20:25:31.707 INFO DriveService: rounds: avg 1180 ms, fast avg 766 ms, multi=off
+2026-10-05 20:27:29.187 INFO DriveService: rounds: avg 1174 ms, fast avg 770 ms, multi=off
+2026-10-05 20:29:28.934 INFO DriveService: rounds: avg 1197 ms, fast avg 786 ms, multi=off
+2026-10-05 20:31:26.468 INFO DriveService: rounds: avg 1175 ms, fast avg 761 ms, multi=off
+2026-10-05 20:33:23.155 INFO DriveService: rounds: avg 1166 ms, fast avg 764 ms, multi=off
+2026-10-05 20:35:22.204 INFO DriveService: rounds: avg 1190 ms, fast avg 779 ms, multi=off
+2026-10-05 20:37:20.663 INFO DriveService: rounds: avg 1184 ms, fast avg 768 ms, multi=off
+2026-10-05 20:39:17.554 INFO DriveService: rounds: avg 1168 ms, fast avg 764 ms, multi=off
+2026-10-05 20:41:16.613 INFO DriveService: rounds: avg 1190 ms, fast avg 780 ms, multi=off
+2026-10-05 20:43:14.232 INFO DriveService: rounds: avg 1176 ms, fast avg 763 ms, multi=off
+2026-10-05 20:45:13.296 INFO DriveService: rounds: avg 1190 ms, fast avg 780 ms, multi=off
+2026-10-05 20:47:11.080 INFO DriveService: rounds: avg 1177 ms, fast avg 773 ms, multi=off
+2026-10-05 20:49:08.646 INFO DriveService: rounds: avg 1175 ms, fast avg 765 ms, multi=off
+2026-10-05 20:51:07.168 INFO DriveService: rounds: avg 1185 ms, fast avg 775 ms, multi=off
+2026-10-05 20:53:03.462 INFO DriveService: rounds: avg 1162 ms, fast avg 760 ms, multi=off
+2026-10-05 20:55:00.806 INFO DriveService: rounds: avg 1173 ms, fast avg 762 ms, multi=off
+2026-10-05 20:56:59.031 INFO DriveService: rounds: avg 1182 ms, fast avg 775 ms, multi=off
+2026-10-05 20:59:03.107 INFO DriveService: rounds: avg 1240 ms, fast avg 811 ms, multi=off
+2026-10-05 21:01:01.669 INFO DriveService: rounds: avg 1185 ms, fast avg 762 ms, multi=off
+2026-10-05 21:02:57.778 INFO DriveService: rounds: avg 1161 ms, fast avg 763 ms, multi=off
+2026-10-05 21:04:53.747 INFO DriveService: rounds: avg 1159 ms, fast avg 761 ms, multi=off
+2026-10-05 21:05:10.390 INFO DriveService: Trip saved: 24.301379722222205 km
+2026-10-05 21:05:27.236 ERROR Sync: Failed to upload JSON trips/VICTORIS/2026-10-05_1791210562462.json
+java.net.SocketTimeoutException: timeout
+	at com.android.okhttp.okio.Okio$3.newTimeoutException(Okio.java:214)
+	at com.android.okhttp.okio.AsyncTimeout.exit(AsyncTimeout.java:263)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:217)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:307)
+	at com.android.okhttp.okio.RealBufferedSource.indexOf(RealBufferedSource.java:301)
+	at com.android.okhttp.okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:197)
+	at com.android.okhttp.internal.http.Http1xStream.readResponse(Http1xStream.java:188)
+	at com.android.okhttp.internal.http.Http1xStream.readResponseHeaders(Http1xStream.java:129)
+	at com.android.okhttp.internal.http.HttpEngine.readNetworkResponse(HttpEngine.java:750)
+	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:622)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:475)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:58)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:110)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:188)
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readFromSocket(ConscryptEngineSocket.java:1015)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.processDataFromSocket(ConscryptEngineSocket.java:979)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.readUntilDataAvailable(ConscryptEngineSocket.java:894)
+	at com.android.org.conscrypt.ConscryptEngineSocket$SSLInputStream.read(ConscryptEngineSocket.java:867)
+	at com.android.okhttp.okio.Okio$2.read(Okio.java:138)
+	at com.android.okhttp.okio.AsyncTimeout$2.read(AsyncTimeout.java:213)
+	... 21 more
+

@@ -1901,3 +1901,7 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-05 22:28:06.380 INFO DriveService: Connected to OBD
+2026-10-05 22:28:06.381 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-05 22:29:13.316 INFO DriveService: rounds: avg 669 ms, fast avg 381 ms, multi=on
+2026-10-05 22:30:19.604 INFO DriveService: rounds: avg 662 ms, fast avg 379 ms, multi=on

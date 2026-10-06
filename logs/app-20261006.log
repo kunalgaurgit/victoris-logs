@@ -1,0 +1,25 @@
+2026-10-06 10:59:12.700 INFO DriveService: Connected to OBD
+2026-10-06 10:59:12.701 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-06 11:00:30.372 INFO DriveService: rounds: avg 776 ms, fast avg 453 ms, multi=on
+2026-10-06 11:01:40.036 INFO DriveService: rounds: avg 696 ms, fast avg 403 ms, multi=on
+2026-10-06 11:02:49.263 INFO DriveService: rounds: avg 692 ms, fast avg 404 ms, multi=on
+2026-10-06 11:03:59.169 INFO DriveService: rounds: avg 698 ms, fast avg 405 ms, multi=on
+2026-10-06 11:05:06.595 INFO DriveService: rounds: avg 674 ms, fast avg 393 ms, multi=on
+2026-10-06 11:06:11.989 INFO DriveService: rounds: avg 653 ms, fast avg 379 ms, multi=on
+2026-10-06 11:07:18.383 INFO DriveService: rounds: avg 663 ms, fast avg 382 ms, multi=on
+2026-10-06 11:08:23.963 INFO DriveService: rounds: avg 655 ms, fast avg 383 ms, multi=on
+2026-10-06 11:09:30.348 INFO DriveService: rounds: avg 663 ms, fast avg 384 ms, multi=on
+2026-10-06 11:10:38.454 INFO DriveService: rounds: avg 680 ms, fast avg 387 ms, multi=on
+2026-10-06 11:11:44.348 INFO DriveService: rounds: avg 658 ms, fast avg 388 ms, multi=on
+2026-10-06 11:12:50.532 INFO DriveService: rounds: avg 661 ms, fast avg 384 ms, multi=on
+2026-10-06 11:13:56.137 INFO DriveService: rounds: avg 656 ms, fast avg 380 ms, multi=on
+2026-10-06 11:15:01.738 INFO DriveService: rounds: avg 655 ms, fast avg 381 ms, multi=on
+2026-10-06 11:16:09.375 INFO DriveService: rounds: avg 676 ms, fast avg 395 ms, multi=on
+2026-10-06 11:17:16.567 INFO DriveService: rounds: avg 671 ms, fast avg 383 ms, multi=on
+2026-10-06 11:18:22.832 INFO DriveService: rounds: avg 662 ms, fast avg 386 ms, multi=on
+2026-10-06 11:19:28.444 INFO DriveService: rounds: avg 656 ms, fast avg 376 ms, multi=on
+2026-10-06 11:20:34.711 INFO DriveService: rounds: avg 662 ms, fast avg 384 ms, multi=on
+2026-10-06 11:21:42.884 INFO DriveService: rounds: avg 681 ms, fast avg 395 ms, multi=on
+2026-10-06 11:22:48.870 INFO DriveService: rounds: avg 659 ms, fast avg 388 ms, multi=on
+2026-10-06 11:23:55.031 INFO DriveService: rounds: avg 661 ms, fast avg 385 ms, multi=on
+2026-10-06 11:25:00.678 INFO DriveService: rounds: avg 656 ms, fast avg 382 ms, multi=on

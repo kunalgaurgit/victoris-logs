@@ -72,3 +72,68 @@
 2026-10-06 12:11:15.028 INFO DriveService: rounds: avg 1078 ms, fast avg 632 ms, multi=off
 2026-10-06 12:13:05.913 INFO DriveService: rounds: avg 1108 ms, fast avg 648 ms, multi=off
 2026-10-06 12:14:44.844 INFO DriveService: Trip saved: 4.797329166666662 km
+2026-10-06 12:14:49.683 INFO Sync: Synced trip 1791268194720
+2026-10-06 12:15:19.334 ERROR DriveService: Loop error, reconnecting
+java.io.IOException: Broken pipe
+	at android.net.LocalSocketImpl.writeba_native(Native Method)
+	at android.net.LocalSocketImpl.-$$Nest$mwriteba_native(LocalSocketImpl.java:0)
+	at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+	at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:1142)
+	at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:77)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at com.victoris.ledger.obd.SppTransport$write$2.invokeSuspend(SppTransport.kt:69)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-094e9da1f9802e55a4a88e88724cab219cfe6a18:1)
+	at com.victoris.ledger.obd.SppTransport.write(SppTransport.kt:68)
+	at com.victoris.ledger.obd.Elm327.command(Elm327.kt:39)
+	at com.victoris.ledger.obd.Elm327.readPid(Elm327.kt:135)
+	at com.victoris.ledger.obd.Elm327.readPid$default(Elm327.kt:133)
+	at com.victoris.ledger.obd.DriveService.safeReadPid(DriveService.kt:955)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:621)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:105)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-06 12:16:30.219 INFO DriveService: Reconnected to OBD in loop
+2026-10-06 12:16:30.245 INFO DriveService: rounds: avg 2043 ms, fast avg 711 ms, multi=off
+2026-10-06 20:26:25.972 INFO DriveService: Connected to OBD, timing suffix
+2026-10-06 20:26:25.979 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-06 20:26:31.196 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-06 20:28:20.812 INFO DriveService: rounds: avg 1148 ms, fast avg 671 ms, multi=off
+2026-10-06 20:30:08.965 INFO DriveService: rounds: avg 1081 ms, fast avg 637 ms, multi=off
+2026-10-06 20:32:03.095 INFO DriveService: rounds: avg 1141 ms, fast avg 629 ms, multi=off
+2026-10-06 20:34:00.993 INFO DriveService: rounds: avg 1178 ms, fast avg 646 ms, multi=off
+2026-10-06 20:35:55.349 INFO DriveService: rounds: avg 1143 ms, fast avg 638 ms, multi=off
+2026-10-06 20:37:51.244 INFO DriveService: rounds: avg 1158 ms, fast avg 646 ms, multi=off
+2026-10-06 20:39:45.347 INFO DriveService: rounds: avg 1141 ms, fast avg 638 ms, multi=off
+2026-10-06 20:41:36.701 INFO DriveService: rounds: avg 1113 ms, fast avg 634 ms, multi=off
+2026-10-06 20:43:27.131 INFO DriveService: rounds: avg 1104 ms, fast avg 646 ms, multi=off
+2026-10-06 20:45:16.070 INFO DriveService: rounds: avg 1089 ms, fast avg 632 ms, multi=off
+2026-10-06 20:47:03.198 INFO DriveService: rounds: avg 1071 ms, fast avg 630 ms, multi=off
+2026-10-06 20:48:53.557 INFO DriveService: rounds: avg 1103 ms, fast avg 648 ms, multi=off
+2026-10-06 20:50:47.072 INFO DriveService: rounds: avg 1135 ms, fast avg 665 ms, multi=off
+2026-10-06 20:52:41.082 INFO DriveService: rounds: avg 1140 ms, fast avg 635 ms, multi=off
+2026-10-06 20:54:33.583 INFO DriveService: rounds: avg 1125 ms, fast avg 647 ms, multi=off
+2026-10-06 20:56:25.779 INFO DriveService: rounds: avg 1121 ms, fast avg 637 ms, multi=off
+2026-10-06 20:58:16.576 INFO DriveService: rounds: avg 1107 ms, fast avg 637 ms, multi=off
+2026-10-06 21:00:10.058 INFO DriveService: rounds: avg 1134 ms, fast avg 649 ms, multi=off
+2026-10-06 21:02:02.670 INFO DriveService: rounds: avg 1126 ms, fast avg 628 ms, multi=off
+2026-10-06 21:03:51.929 INFO DriveService: rounds: avg 1092 ms, fast avg 631 ms, multi=off
+2026-10-06 21:05:41.438 INFO DriveService: rounds: avg 1095 ms, fast avg 647 ms, multi=off
+2026-10-06 21:07:29.962 INFO DriveService: rounds: avg 1085 ms, fast avg 633 ms, multi=off
+2026-10-06 21:09:20.376 INFO DriveService: rounds: avg 1104 ms, fast avg 652 ms, multi=off
+2026-10-06 21:09:26.101 INFO DriveService: Trip saved: 22.203271944444488 km
+2026-10-06 21:09:32.719 INFO Sync: Synced trip 1791298583316

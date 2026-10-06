@@ -149,3 +149,13 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-06 21:11:20.828 INFO DriveService: rounds: avg 1204 ms, fast avg 652 ms, multi=off
+2026-10-06 21:13:15.489 INFO DriveService: rounds: avg 1146 ms, fast avg 663 ms, multi=off
+2026-10-06 21:15:06.706 INFO DriveService: rounds: avg 1112 ms, fast avg 670 ms, multi=off
+2026-10-06 21:16:55.464 INFO DriveService: rounds: avg 1087 ms, fast avg 692 ms, multi=off
+2026-10-06 21:18:51.563 INFO DriveService: rounds: avg 1160 ms, fast avg 680 ms, multi=off
+2026-10-06 21:20:48.582 INFO DriveService: rounds: avg 1170 ms, fast avg 689 ms, multi=off
+2026-10-06 21:22:35.412 INFO DriveService: rounds: avg 1068 ms, fast avg 629 ms, multi=off
+2026-10-06 21:24:25.057 INFO DriveService: rounds: avg 1096 ms, fast avg 645 ms, multi=off
+2026-10-06 21:24:30.365 INFO DriveService: Trip saved: 2.336294444444445 km
+2026-10-06 21:24:35.095 INFO Sync: Synced trip 1791301491558

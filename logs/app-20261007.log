@@ -26,3 +26,5 @@
 2026-10-07 08:50:57.803 INFO DriveService: rounds: avg 1112 ms, fast avg 630 ms, multi=off
 2026-10-07 08:52:37.938 INFO DriveService: Trip saved: 28.762008611111124 km
 2026-10-07 08:52:42.903 INFO Sync: Synced trip 1791340641301
+2026-10-07 08:52:49.943 INFO Settings: manual_factor_cng: null -> removed
+2026-10-07 08:52:49.943 INFO Settings: manual_factor_petrol: null -> removed

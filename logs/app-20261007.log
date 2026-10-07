@@ -197,3 +197,7 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 500:
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-07 20:49:16.115 INFO DriveService: Connected to OBD, timing suffix
+2026-10-07 20:49:16.130 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-07 20:49:21.371 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-07 20:49:44.091 INFO Sync: Synced trip 1791384299483

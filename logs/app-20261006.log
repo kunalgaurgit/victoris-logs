@@ -205,3 +205,5 @@ java.io.IOException: Broken pipe
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-06 22:22:05.385 INFO Update: APK 45 downloaded: 14.3 MB in 117.1 s (0.12 MB/s)
+2026-10-06 22:22:50.286 INFO Restate: Restated 28 Victoris trips to CNG factor 1.169

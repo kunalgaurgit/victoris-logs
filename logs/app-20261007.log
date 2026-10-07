@@ -57,3 +57,71 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
 2026-10-07 09:12:48.666 INFO DriveService: rounds: avg 1188 ms, fast avg 637 ms, multi=off
+2026-10-07 09:14:36.135 INFO DriveService: rounds: avg 1074 ms, fast avg 630 ms, multi=off
+2026-10-07 09:16:27.755 ERROR DriveService: Loop error, reconnecting
+java.io.IOException: Broken pipe
+	at android.net.LocalSocketImpl.writeba_native(Native Method)
+	at android.net.LocalSocketImpl.-$$Nest$mwriteba_native(LocalSocketImpl.java:0)
+	at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+	at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:1142)
+	at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:77)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at com.victoris.ledger.obd.SppTransport$write$2.invokeSuspend(SppTransport.kt:69)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-e11516ec815ba2fc643bc276b67a499a13735759:1)
+	at com.victoris.ledger.obd.SppTransport.write(SppTransport.kt:68)
+	at com.victoris.ledger.obd.Elm327.command(Elm327.kt:47)
+	at com.victoris.ledger.obd.Elm327.readPid(Elm327.kt:161)
+	at com.victoris.ledger.obd.Elm327.readPid$default(Elm327.kt:160)
+	at com.victoris.ledger.obd.DriveService.safeReadPid(DriveService.kt:962)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:527)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:105)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-07 20:15:02.344 INFO DriveService: Connected to OBD, timing suffix
+2026-10-07 20:15:02.353 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-07 20:15:08.396 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-07 20:17:11.587 INFO DriveService: rounds: avg 1292 ms, fast avg 748 ms, multi=off
+2026-10-07 20:19:07.778 INFO DriveService: rounds: avg 1161 ms, fast avg 682 ms, multi=off
+2026-10-07 20:21:04.526 INFO DriveService: rounds: avg 1167 ms, fast avg 688 ms, multi=off
+2026-10-07 20:23:01.999 INFO DriveService: rounds: avg 1174 ms, fast avg 688 ms, multi=off
+2026-10-07 20:24:52.847 INFO DriveService: rounds: avg 1108 ms, fast avg 656 ms, multi=off
+2026-10-07 20:26:49.916 INFO DriveService: rounds: avg 1170 ms, fast avg 694 ms, multi=off
+2026-10-07 20:28:40.292 INFO DriveService: rounds: avg 1103 ms, fast avg 648 ms, multi=off
+2026-10-07 20:30:27.440 INFO DriveService: rounds: avg 1071 ms, fast avg 630 ms, multi=off
+2026-10-07 20:32:15.417 INFO DriveService: rounds: avg 1079 ms, fast avg 636 ms, multi=off
+2026-10-07 20:34:04.077 INFO DriveService: rounds: avg 1086 ms, fast avg 630 ms, multi=off
+2026-10-07 20:35:51.495 INFO DriveService: rounds: avg 1074 ms, fast avg 634 ms, multi=off
+2026-10-07 20:37:39.104 INFO DriveService: rounds: avg 1076 ms, fast avg 632 ms, multi=off
+2026-10-07 20:39:27.163 INFO DriveService: rounds: avg 1080 ms, fast avg 630 ms, multi=off
+2026-10-07 20:41:15.169 INFO DriveService: rounds: avg 1080 ms, fast avg 637 ms, multi=off
+2026-10-07 20:43:02.234 INFO DriveService: rounds: avg 1070 ms, fast avg 633 ms, multi=off
+2026-10-07 20:44:50.933 INFO DriveService: rounds: avg 1086 ms, fast avg 635 ms, multi=off
+2026-10-07 20:46:38.633 INFO DriveService: rounds: avg 1076 ms, fast avg 636 ms, multi=off
+2026-10-07 20:48:18.506 INFO DriveService: Trip saved: 1.0030541666666666 km
+2026-10-07 20:48:25.936 ERROR Sync: Failed to upload CSV trips/VICTORIS/2026-10-07_1791384299483.csv
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 500: 
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:119)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

@@ -1860,3 +1860,4 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-08 20:58:46.454 INFO DriveService: rounds: avg 1146 ms, fast avg 654 ms, multi=off

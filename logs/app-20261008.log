@@ -1959,3 +1959,16 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-08 21:04:14.495 INFO DriveService: rounds: avg 1097 ms, fast avg 647 ms, multi=off
+2026-10-08 21:04:16.630 ERROR Sync: Failed to upload settings
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at f059af05c2bc36093a05e2fff423989eb7ae1b87 but expected 66f21474af481337900f9c2b2555284612d15d64","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:191)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

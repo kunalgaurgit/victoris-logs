@@ -217,3 +217,4 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 
 2026-10-08 20:15:31.304 INFO DriveService: Connected to OBD, timing suffix
 2026-10-08 20:15:31.308 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-08 20:15:37.162 INFO DriveService: Multi-PID disabled for this session after 3 failures

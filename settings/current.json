@@ -9,7 +9,7 @@
   "eco_threshold_petrol": "20.0",
   "eco_threshold_wagonr_cng": "25.0",
   "eco_threshold_wagonr_petrol": "20.0",
-  "gear_voice_enabled": false,
+  "gear_voice_enabled": true,
   "hud_dim_pct": 75,
   "hud_light_step_ms": 25,
   "idle_alert_enabled": true,
@@ -25,6 +25,6 @@
   "petrol_warning_enabled": true,
   "selected_vehicle": "WAGONR",
   "speed_alert_enabled": true,
-  "speed_alert_kmh": 40,
+  "speed_alert_kmh": 70,
   "trip_summary_voice": true
 }

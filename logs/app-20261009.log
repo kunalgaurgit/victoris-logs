@@ -44,3 +44,15 @@
 2026-10-09 09:43:54.073 INFO DriveService: rounds: avg 1280 ms, fast avg 735 ms, multi=off
 2026-10-09 09:45:23.460 INFO DriveService: Trip saved: 5.455073888888893 km
 2026-10-09 09:45:35.274 INFO Sync: Synced trip 1791518445866
+2026-10-09 09:45:42.755 ERROR Sync: Failed to upload JSON trips/WAGONR/2026-10-09_1791518445866.json
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 129187dff177d369404c0ba2a23afa696f672113 but expected b5399d9429fff7a1e90f6359205e53790ba7adf4","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:134)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

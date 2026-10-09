@@ -32,3 +32,15 @@
 2026-10-09 09:21:10.156 INFO DriveService: rounds: avg 1326 ms, fast avg 767 ms, multi=off
 2026-10-09 09:21:16.531 INFO DriveService: Trip saved: 22.78141333333334 km
 2026-10-09 09:21:27.610 INFO Sync: Synced trip 1791514277252
+2026-10-09 09:24:13.203 INFO DriveService: rounds: avg 1830 ms, fast avg 1095 ms, multi=off
+2026-10-09 09:30:50.292 INFO DriveService: Connected to OBD, timing suffix
+2026-10-09 09:30:50.307 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-09 09:30:57.017 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-09 09:33:04.065 INFO DriveService: rounds: avg 1337 ms, fast avg 765 ms, multi=off
+2026-10-09 09:35:17.115 INFO DriveService: rounds: avg 1330 ms, fast avg 760 ms, multi=off
+2026-10-09 09:37:24.591 INFO DriveService: rounds: avg 1274 ms, fast avg 759 ms, multi=off
+2026-10-09 09:39:34.285 INFO DriveService: rounds: avg 1296 ms, fast avg 741 ms, multi=off
+2026-10-09 09:41:46.013 INFO DriveService: rounds: avg 1317 ms, fast avg 756 ms, multi=off
+2026-10-09 09:43:54.073 INFO DriveService: rounds: avg 1280 ms, fast avg 735 ms, multi=off
+2026-10-09 09:45:23.460 INFO DriveService: Trip saved: 5.455073888888893 km
+2026-10-09 09:45:35.274 INFO Sync: Synced trip 1791518445866

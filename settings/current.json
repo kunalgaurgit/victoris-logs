@@ -20,8 +20,10 @@
   "multipid_00:10:CC:4F:36:03": true,
   "pedal_alert_enabled": true,
   "pedal_alert_pct": 35,
+  "pedal_max_wagonr": "88.23529411764706",
+  "pedal_rest_wagonr": "14.9",
   "petrol_warning_enabled": true,
-  "selected_vehicle": "VICTORIS",
+  "selected_vehicle": "WAGONR",
   "speed_alert_enabled": true,
   "speed_alert_kmh": 40,
   "trip_summary_voice": true

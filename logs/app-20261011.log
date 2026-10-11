@@ -224,3 +224,31 @@ java.io.IOException: Broken pipe
 2026-10-11 20:15:54.629 INFO DriveService: rounds: avg 1132 ms, fast avg 672 ms, multi=off
 2026-10-11 20:16:26.336 INFO DriveService: Trip saved: 13.247634444444449 km
 2026-10-11 20:16:30.742 INFO Sync: Synced trip 1791728308280
+2026-10-11 20:17:53.446 INFO DriveService: rounds: avg 1188 ms, fast avg 677 ms, multi=off
+2026-10-11 20:19:40.893 INFO DriveService: rounds: avg 1074 ms, fast avg 691 ms, multi=off
+2026-10-11 21:29:13.050 INFO DriveService: Connected to OBD, timing suffix
+2026-10-11 21:29:13.062 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-11 21:29:18.259 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-11 21:31:06.514 INFO DriveService: rounds: avg 1134 ms, fast avg 666 ms, multi=off
+2026-10-11 21:32:52.918 INFO DriveService: rounds: avg 1064 ms, fast avg 626 ms, multi=off
+2026-10-11 21:34:40.016 INFO DriveService: rounds: avg 1070 ms, fast avg 626 ms, multi=off
+2026-10-11 21:36:34.206 INFO DriveService: rounds: avg 1141 ms, fast avg 635 ms, multi=off
+2026-10-11 21:38:22.460 INFO DriveService: rounds: avg 1082 ms, fast avg 633 ms, multi=off
+2026-10-11 21:40:09.100 INFO DriveService: rounds: avg 1066 ms, fast avg 630 ms, multi=off
+2026-10-11 21:41:57.300 INFO DriveService: rounds: avg 1082 ms, fast avg 633 ms, multi=off
+2026-10-11 21:43:50.008 INFO DriveService: rounds: avg 1127 ms, fast avg 634 ms, multi=off
+2026-10-11 21:45:37.331 INFO DriveService: rounds: avg 1073 ms, fast avg 629 ms, multi=off
+2026-10-11 21:47:25.624 INFO DriveService: rounds: avg 1082 ms, fast avg 631 ms, multi=off
+2026-10-11 21:49:13.932 INFO DriveService: rounds: avg 1083 ms, fast avg 632 ms, multi=off
+2026-10-11 21:51:01.014 INFO DriveService: rounds: avg 1070 ms, fast avg 635 ms, multi=off
+2026-10-11 21:52:49.646 INFO DriveService: rounds: avg 1086 ms, fast avg 634 ms, multi=off
+2026-10-11 21:54:37.051 INFO DriveService: rounds: avg 1074 ms, fast avg 631 ms, multi=off
+2026-10-11 21:56:24.496 INFO DriveService: rounds: avg 1074 ms, fast avg 629 ms, multi=off
+2026-10-11 21:58:13.764 INFO DriveService: rounds: avg 1092 ms, fast avg 633 ms, multi=off
+2026-10-11 22:00:02.212 INFO DriveService: rounds: avg 1084 ms, fast avg 637 ms, multi=off
+2026-10-11 22:01:49.875 INFO DriveService: rounds: avg 1076 ms, fast avg 629 ms, multi=off
+2026-10-11 22:03:38.454 INFO DriveService: rounds: avg 1085 ms, fast avg 630 ms, multi=off
+2026-10-11 22:05:25.500 INFO DriveService: rounds: avg 1070 ms, fast avg 630 ms, multi=off
+2026-10-11 22:07:14.014 INFO DriveService: rounds: avg 1085 ms, fast avg 638 ms, multi=off
+2026-10-11 22:09:02.151 INFO DriveService: Trip saved: 27.444376388888877 km
+2026-10-11 22:09:12.142 INFO Sync: Synced trip 1791734350628

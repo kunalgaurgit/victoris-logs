@@ -1,0 +1,18 @@
+2026-10-11 11:58:20.019 INFO DriveService: Connected to OBD, timing suffix
+2026-10-11 11:58:20.020 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-11 11:58:25.444 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-11 12:00:20.014 INFO DriveService: rounds: avg 1199 ms, fast avg 698 ms, multi=off
+2026-10-11 12:02:14.709 INFO DriveService: rounds: avg 1146 ms, fast avg 676 ms, multi=off
+2026-10-11 12:04:15.704 INFO DriveService: rounds: avg 1209 ms, fast avg 714 ms, multi=off
+2026-10-11 12:04:44.503 INFO DriveService: Vehicle detected: VICTORIS (median 25.88)
+2026-10-11 12:06:13.877 INFO DriveService: rounds: avg 1181 ms, fast avg 684 ms, multi=off
+2026-10-11 12:08:09.928 INFO DriveService: rounds: avg 1160 ms, fast avg 690 ms, multi=off
+2026-10-11 12:10:07.428 INFO DriveService: rounds: avg 1174 ms, fast avg 694 ms, multi=off
+2026-10-11 12:12:02.846 INFO DriveService: rounds: avg 1154 ms, fast avg 675 ms, multi=off
+2026-10-11 12:13:55.164 INFO DriveService: rounds: avg 1123 ms, fast avg 663 ms, multi=off
+2026-10-11 12:15:49.887 INFO DriveService: rounds: avg 1147 ms, fast avg 673 ms, multi=off
+2026-10-11 12:17:39.252 INFO DriveService: rounds: avg 1093 ms, fast avg 635 ms, multi=off
+2026-10-11 12:19:27.070 INFO DriveService: rounds: avg 1078 ms, fast avg 636 ms, multi=off
+2026-10-11 12:19:43.633 INFO DriveService: Trip saved: 9.69985944444443 km
+2026-10-11 12:19:55.931 INFO Sync: Synced trip 1791700098249
+2026-10-11 12:20:04.154 INFO Sync: Synced trip 1791700098249

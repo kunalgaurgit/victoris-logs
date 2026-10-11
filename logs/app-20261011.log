@@ -89,3 +89,83 @@ java.io.IOException: Broken pipe
 2026-10-11 14:36:38.456 INFO DriveService: rounds: avg 1150 ms, fast avg 678 ms, multi=off
 2026-10-11 14:37:14.389 INFO DriveService: Trip saved: 10.492154166666671 km
 2026-10-11 14:37:19.391 INFO Sync: Synced trip 1791707364749
+2026-10-11 14:39:10.449 INFO DriveService: rounds: avg 1519 ms, fast avg 889 ms, multi=off
+2026-10-11 14:39:20.822 ERROR DriveService: Loop error, reconnecting
+java.io.IOException: Broken pipe
+	at android.net.LocalSocketImpl.writeba_native(Native Method)
+	at android.net.LocalSocketImpl.-$$Nest$mwriteba_native(LocalSocketImpl.java:0)
+	at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+	at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:1142)
+	at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:77)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at com.victoris.ledger.obd.SppTransport$write$2.invokeSuspend(SppTransport.kt:69)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-7c1cc7305c5d6037495884cddddf8ffa7da47496:1)
+	at com.victoris.ledger.obd.SppTransport.write(SppTransport.kt:68)
+	at com.victoris.ledger.obd.Elm327.command(Elm327.kt:47)
+	at com.victoris.ledger.obd.Elm327.readPid(Elm327.kt:161)
+	at com.victoris.ledger.obd.Elm327.readPid$default(Elm327.kt:160)
+	at com.victoris.ledger.obd.DriveService.safeReadPid(DriveService.kt:962)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:532)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:105)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-11 17:57:10.840 INFO DriveService: Connected to OBD, timing suffix
+2026-10-11 17:57:10.844 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-11 17:57:16.377 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-11 17:59:04.778 INFO DriveService: rounds: avg 1139 ms, fast avg 669 ms, multi=off
+2026-10-11 18:00:51.669 INFO DriveService: rounds: avg 1068 ms, fast avg 629 ms, multi=off
+2026-10-11 18:02:48.315 INFO DriveService: rounds: avg 1166 ms, fast avg 684 ms, multi=off
+2026-10-11 18:04:39.849 INFO DriveService: rounds: avg 1115 ms, fast avg 651 ms, multi=off
+2026-10-11 18:06:28.446 INFO DriveService: rounds: avg 1085 ms, fast avg 639 ms, multi=off
+2026-10-11 18:08:17.043 INFO DriveService: rounds: avg 1085 ms, fast avg 638 ms, multi=off
+2026-10-11 18:10:08.180 INFO DriveService: rounds: avg 1111 ms, fast avg 647 ms, multi=off
+2026-10-11 18:11:55.563 INFO DriveService: rounds: avg 1073 ms, fast avg 633 ms, multi=off
+2026-10-11 18:13:42.209 INFO DriveService: rounds: avg 1066 ms, fast avg 632 ms, multi=off
+2026-10-11 18:15:32.575 INFO DriveService: rounds: avg 1103 ms, fast avg 643 ms, multi=off
+2026-10-11 18:17:20.158 INFO DriveService: rounds: avg 1075 ms, fast avg 635 ms, multi=off
+2026-10-11 18:19:07.583 INFO DriveService: rounds: avg 1074 ms, fast avg 634 ms, multi=off
+2026-10-11 18:20:58.448 INFO DriveService: rounds: avg 1108 ms, fast avg 646 ms, multi=off
+2026-10-11 18:22:47.477 INFO DriveService: rounds: avg 1090 ms, fast avg 643 ms, multi=off
+2026-10-11 18:24:38.066 INFO DriveService: rounds: avg 1105 ms, fast avg 654 ms, multi=off
+2026-10-11 18:26:26.812 INFO DriveService: rounds: avg 1087 ms, fast avg 632 ms, multi=off
+2026-10-11 18:28:17.310 INFO DriveService: rounds: avg 1104 ms, fast avg 646 ms, multi=off
+2026-10-11 18:30:04.448 INFO DriveService: rounds: avg 1071 ms, fast avg 631 ms, multi=off
+2026-10-11 18:31:53.656 INFO DriveService: rounds: avg 1091 ms, fast avg 637 ms, multi=off
+2026-10-11 18:33:43.691 INFO DriveService: rounds: avg 1100 ms, fast avg 652 ms, multi=off
+2026-10-11 18:35:31.910 INFO DriveService: rounds: avg 1082 ms, fast avg 632 ms, multi=off
+2026-10-11 18:37:21.047 INFO DriveService: rounds: avg 1091 ms, fast avg 632 ms, multi=off
+2026-10-11 18:39:11.391 INFO DriveService: rounds: avg 1103 ms, fast avg 652 ms, multi=off
+2026-10-11 18:40:59.388 INFO DriveService: rounds: avg 1079 ms, fast avg 635 ms, multi=off
+2026-10-11 18:42:47.751 INFO DriveService: rounds: avg 1083 ms, fast avg 633 ms, multi=off
+2026-10-11 18:44:37.162 INFO DriveService: rounds: avg 1094 ms, fast avg 642 ms, multi=off
+2026-10-11 18:46:24.320 INFO DriveService: rounds: avg 1071 ms, fast avg 628 ms, multi=off
+2026-10-11 18:48:12.735 INFO DriveService: rounds: avg 1084 ms, fast avg 632 ms, multi=off
+2026-10-11 18:49:02.631 INFO DriveService: Trip saved: 23.831693888888893 km
+2026-10-11 18:49:15.224 ERROR Sync: Failed to upload CSV trips/VICTORIS/2026-10-11_1791721628582.csv
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:119)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-11 18:49:16.298 INFO Sync: Synced trip 1791721628582

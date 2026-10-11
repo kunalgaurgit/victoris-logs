@@ -600,3 +600,18 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-11 22:32:14.873 INFO DriveService: Connected to OBD, timing suffix
+2026-10-11 22:32:14.874 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-11 22:32:20.224 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-11 22:34:14.538 INFO DriveService: rounds: avg 1196 ms, fast avg 699 ms, multi=off
+2026-10-11 22:36:10.443 INFO DriveService: rounds: avg 1159 ms, fast avg 685 ms, multi=off
+2026-10-11 22:38:00.415 INFO DriveService: rounds: avg 1099 ms, fast avg 648 ms, multi=off
+2026-10-11 22:39:48.916 INFO DriveService: rounds: avg 1084 ms, fast avg 631 ms, multi=off
+2026-10-11 22:41:38.247 INFO DriveService: rounds: avg 1093 ms, fast avg 645 ms, multi=off
+2026-10-11 22:43:25.892 INFO DriveService: rounds: avg 1076 ms, fast avg 635 ms, multi=off
+2026-10-11 22:45:14.296 INFO DriveService: rounds: avg 1084 ms, fast avg 633 ms, multi=off
+2026-10-11 22:47:03.093 INFO DriveService: rounds: avg 1087 ms, fast avg 644 ms, multi=off
+2026-10-11 22:48:50.258 INFO DriveService: rounds: avg 1071 ms, fast avg 632 ms, multi=off
+2026-10-11 22:50:38.396 INFO DriveService: rounds: avg 1081 ms, fast avg 634 ms, multi=off
+2026-10-11 22:50:52.107 INFO DriveService: Trip saved: 11.689781388888912 km
+2026-10-11 22:50:57.578 INFO Sync: Synced trip 1791738131132

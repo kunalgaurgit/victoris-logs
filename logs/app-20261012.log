@@ -154,3 +154,85 @@ java.io.IOException: Broken pipe
 2026-10-12 21:04:56.851 INFO DriveService: rounds: avg 1165 ms, fast avg 685 ms, multi=off
 2026-10-12 21:06:23.074 INFO DriveService: Trip saved: 24.28006472222227 km
 2026-10-12 21:06:30.371 INFO Sync: Synced trip 1791815316217
+2026-10-12 21:07:02.213 ERROR DriveService: Loop error, reconnecting
+java.io.IOException: Broken pipe
+	at android.net.LocalSocketImpl.writeba_native(Native Method)
+	at android.net.LocalSocketImpl.-$$Nest$mwriteba_native(LocalSocketImpl.java:0)
+	at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+	at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:1142)
+	at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:77)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at com.victoris.ledger.obd.SppTransport$write$2.invokeSuspend(SppTransport.kt:69)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-90a9c3af87ec1ef433a5d732fdc68074efad6e39:1)
+	at com.victoris.ledger.obd.SppTransport.write(SppTransport.kt:68)
+	at com.victoris.ledger.obd.Elm327.command(Elm327.kt:49)
+	at com.victoris.ledger.obd.Elm327.readPid(Elm327.kt:186)
+	at com.victoris.ledger.obd.Elm327.readPid$default(Elm327.kt:185)
+	at com.victoris.ledger.obd.DriveService.safeReadPid(DriveService.kt:1085)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop$rpmTick(DriveService.kt:513)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop$rpmTick$default(DriveService.kt:512)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:614)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:112)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-12 21:09:52.836 INFO DriveService: Reconnected to OBD in loop
+2026-10-12 21:10:43.060 INFO DriveService: rounds: avg 3462 ms, fast avg 1001 ms, multi=off
+2026-10-12 21:10:45.076 ERROR DriveService: Loop error, reconnecting
+java.io.IOException: Broken pipe
+	at android.net.LocalSocketImpl.writeba_native(Native Method)
+	at android.net.LocalSocketImpl.-$$Nest$mwriteba_native(LocalSocketImpl.java:0)
+	at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+	at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:1142)
+	at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:77)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at com.victoris.ledger.obd.SppTransport$write$2.invokeSuspend(SppTransport.kt:69)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-90a9c3af87ec1ef433a5d732fdc68074efad6e39:1)
+	at com.victoris.ledger.obd.SppTransport.write(SppTransport.kt:68)
+	at com.victoris.ledger.obd.Elm327.command(Elm327.kt:49)
+	at com.victoris.ledger.obd.Elm327.readPid(Elm327.kt:186)
+	at com.victoris.ledger.obd.Elm327.readPid$default(Elm327.kt:185)
+	at com.victoris.ledger.obd.DriveService.safeReadPid(DriveService.kt:1085)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:540)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:112)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-12 21:24:44.379 INFO DriveService: Connected to OBD, timing suffix
+2026-10-12 21:24:44.390 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-12 21:24:47.941 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; PID31=8476.0
+2026-10-12 21:24:53.467 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-12 21:27:01.894 INFO DriveService: rounds: avg 1339 ms, fast avg 781 ms, multi=off
+2026-10-12 21:28:57.652 INFO DriveService: rounds: avg 1157 ms, fast avg 678 ms, multi=off
+2026-10-12 21:30:47.371 INFO DriveService: rounds: avg 1097 ms, fast avg 645 ms, multi=off
+2026-10-12 21:32:33.567 INFO DriveService: Trip saved: 3.2149597222222237 km
+2026-10-12 21:32:36.813 INFO DriveService: rounds: avg 1094 ms, fast avg 636 ms, multi=off
+2026-10-12 21:32:38.612 INFO Sync: Synced trip 1791820482002

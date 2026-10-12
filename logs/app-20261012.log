@@ -55,3 +55,18 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-12 09:44:54.171 INFO DriveService: rounds: avg 1964 ms, fast avg 1202 ms, multi=off
+2026-10-12 09:51:25.171 INFO DriveService: Connected to OBD, timing suffix
+2026-10-12 09:51:25.173 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-12 09:51:31.859 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-12 09:53:32.836 INFO DriveService: rounds: avg 1276 ms, fast avg 747 ms, multi=off
+2026-10-12 09:55:25.793 INFO DriveService: rounds: avg 1129 ms, fast avg 668 ms, multi=off
+2026-10-12 09:57:15.496 INFO DriveService: rounds: avg 1097 ms, fast avg 648 ms, multi=off
+2026-10-12 09:59:03.483 INFO DriveService: rounds: avg 1079 ms, fast avg 632 ms, multi=off
+2026-10-12 10:00:50.925 INFO DriveService: rounds: avg 1074 ms, fast avg 634 ms, multi=off
+2026-10-12 10:02:37.848 INFO DriveService: rounds: avg 1069 ms, fast avg 631 ms, multi=off
+2026-10-12 10:04:25.691 INFO DriveService: rounds: avg 1078 ms, fast avg 628 ms, multi=off
+2026-10-12 10:06:12.251 INFO DriveService: rounds: avg 1065 ms, fast avg 626 ms, multi=off
+2026-10-12 10:07:59.682 INFO DriveService: rounds: avg 1074 ms, fast avg 631 ms, multi=off
+2026-10-12 10:09:35.956 INFO DriveService: Trip saved: 5.348933333333333 km
+2026-10-12 10:09:41.002 INFO Sync: Synced trip 1791778882523

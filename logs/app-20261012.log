@@ -105,3 +105,45 @@ java.io.IOException: Broken pipe
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-12 18:33:00.578 INFO Update: APK 50 downloaded: 14.3 MB in 2.5 s (5.70 MB/s)
+2026-10-12 18:33:17.541 INFO Restate: Restated 21 WagonR LXI CNG trips to CNG factor 1.169
+2026-10-12 18:45:49.359 INFO Update: APK 51 downloaded: 14.3 MB in 2.3 s (6.34 MB/s)
+2026-10-12 19:57:09.080 INFO DriveService: Connected to OBD, timing suffix
+2026-10-12 19:57:09.084 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-12 19:57:11.145 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; PID31=8452.0
+2026-10-12 19:57:16.411 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-12 19:58:37.887 INFO DriveService: Connected to OBD, timing suffix
+2026-10-12 19:58:37.903 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-12 19:58:40.052 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; PID31=8452.0
+2026-10-12 19:58:45.512 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-12 20:00:40.955 INFO DriveService: rounds: avg 1208 ms, fast avg 701 ms, multi=off
+2026-10-12 20:02:37.766 INFO DriveService: rounds: avg 1168 ms, fast avg 682 ms, multi=off
+2026-10-12 20:04:25.697 INFO DriveService: rounds: avg 1079 ms, fast avg 632 ms, multi=off
+2026-10-12 20:06:14.256 INFO DriveService: rounds: avg 1085 ms, fast avg 634 ms, multi=off
+2026-10-12 20:08:03.952 INFO DriveService: rounds: avg 1096 ms, fast avg 643 ms, multi=off
+2026-10-12 20:09:51.552 INFO DriveService: rounds: avg 1076 ms, fast avg 631 ms, multi=off
+2026-10-12 20:11:40.321 INFO DriveService: rounds: avg 1087 ms, fast avg 631 ms, multi=off
+2026-10-12 20:13:30.371 INFO DriveService: rounds: avg 1100 ms, fast avg 643 ms, multi=off
+2026-10-12 20:15:18.602 INFO DriveService: rounds: avg 1082 ms, fast avg 631 ms, multi=off
+2026-10-12 20:17:08.226 INFO DriveService: rounds: avg 1096 ms, fast avg 636 ms, multi=off
+2026-10-12 20:18:58.453 INFO DriveService: rounds: avg 1102 ms, fast avg 648 ms, multi=off
+2026-10-12 20:20:46.825 INFO DriveService: rounds: avg 1083 ms, fast avg 638 ms, multi=off
+2026-10-12 20:22:36.362 INFO DriveService: rounds: avg 1095 ms, fast avg 636 ms, multi=off
+2026-10-12 20:24:26.467 INFO DriveService: rounds: avg 1101 ms, fast avg 645 ms, multi=off
+2026-10-12 20:26:15.001 INFO DriveService: rounds: avg 1085 ms, fast avg 634 ms, multi=off
+2026-10-12 20:28:04.711 INFO DriveService: rounds: avg 1097 ms, fast avg 636 ms, multi=off
+2026-10-12 20:29:54.939 INFO DriveService: rounds: avg 1102 ms, fast avg 647 ms, multi=off
+2026-10-12 20:31:51.367 INFO DriveService: rounds: avg 1164 ms, fast avg 686 ms, multi=off
+2026-10-12 20:33:43.077 INFO DriveService: rounds: avg 1117 ms, fast avg 648 ms, multi=off
+2026-10-12 20:35:31.562 INFO DriveService: rounds: avg 1084 ms, fast avg 639 ms, multi=off
+2026-10-12 20:37:19.646 INFO DriveService: rounds: avg 1080 ms, fast avg 635 ms, multi=off
+2026-10-12 20:39:10.690 INFO DriveService: rounds: avg 1110 ms, fast avg 646 ms, multi=off
+2026-10-12 20:40:59.784 INFO DriveService: rounds: avg 1090 ms, fast avg 640 ms, multi=off
+2026-10-12 20:42:47.500 INFO DriveService: rounds: avg 1077 ms, fast avg 631 ms, multi=off
+2026-10-12 20:44:38.910 INFO DriveService: rounds: avg 1114 ms, fast avg 645 ms, multi=off
+2026-10-12 20:46:26.196 INFO DriveService: rounds: avg 1072 ms, fast avg 632 ms, multi=off
+2026-10-12 20:48:14.063 INFO DriveService: rounds: avg 1078 ms, fast avg 634 ms, multi=off
+2026-10-12 20:50:04.241 INFO DriveService: rounds: avg 1101 ms, fast avg 640 ms, multi=off
+2026-10-12 20:51:52.307 INFO DriveService: rounds: avg 1080 ms, fast avg 631 ms, multi=off
+2026-10-12 20:53:39.860 INFO DriveService: rounds: avg 1075 ms, fast avg 633 ms, multi=off
+2026-10-12 20:55:29.174 INFO DriveService: rounds: avg 1093 ms, fast avg 637 ms, multi=off

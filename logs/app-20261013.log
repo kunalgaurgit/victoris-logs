@@ -1,0 +1,13 @@
+2026-10-13 00:14:39.656 INFO DriveService: Connected to OBD, timing suffix
+2026-10-13 00:14:39.657 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-13 00:14:42.089 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; PID31=8494.0
+2026-10-13 00:14:47.478 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-13 00:16:44.447 INFO DriveService: rounds: avg 1223 ms, fast avg 695 ms, multi=off
+2026-10-13 00:18:52.195 INFO DriveService: rounds: avg 1277 ms, fast avg 740 ms, multi=off
+2026-10-13 00:20:52.197 INFO DriveService: rounds: avg 1199 ms, fast avg 705 ms, multi=off
+2026-10-13 00:22:48.437 INFO DriveService: rounds: avg 1162 ms, fast avg 677 ms, multi=off
+2026-10-13 00:24:38.781 INFO DriveService: rounds: avg 1103 ms, fast avg 647 ms, multi=off
+2026-10-13 00:26:26.732 INFO DriveService: rounds: avg 1079 ms, fast avg 632 ms, multi=off
+2026-10-13 00:28:15.192 INFO DriveService: rounds: avg 1084 ms, fast avg 632 ms, multi=off
+2026-10-13 00:28:57.828 INFO DriveService: Trip saved: 8.396735277777779 km
+2026-10-13 00:29:03.089 INFO Sync: Synced trip 1791830678331

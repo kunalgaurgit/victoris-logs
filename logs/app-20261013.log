@@ -2212,3 +2212,15 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 2026-10-13 20:45:09.436 INFO MarutiScan: WATCH t=290s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF114011 | 7EE2353114D11571140 | 7EE241153114D1157FF | 7EE25FFFF280B1BFFFF | 7EE26FF00217D56FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5700DE00BCFF | 7EE2A19F63560FFFFFF | 7EE2B091C0967356006 | 7EE2C05FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
 2026-10-13 20:45:20.339 INFO MarutiScan: WATCH t=300s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF17BD17 | 7EE23AD179D179317BD | 7EE2417AD179D1793FF | 7EE25FFFF410CA2FFFF | 7EE26FF002F7E56FF12 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5700EA00BCFF | 7EE2A19D734A9FFFFFF | 7EE2B098F096134A905 | 7EE2CFEFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
 2026-10-13 20:45:20.484 INFO MarutiScan: done
+2026-10-13 20:45:42.405 ERROR Sync: Failed to upload log app-20261013.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at d62ab71776f19e1478305b4c5ba20ddd9f147309 but expected 5400622628e2287c7bb8fbd56675a2c7f821e834","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

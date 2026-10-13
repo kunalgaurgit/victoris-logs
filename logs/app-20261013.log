@@ -89,3 +89,59 @@ java.io.IOException: Broken pipe
 2026-10-13 20:08:55.210 INFO MarutiScan: 750 221005 -> NO DATA   [TPMS 750: tyre pressures]
 2026-10-13 20:08:55.535 INFO MarutiScan: 7E2 2101 -> NO DATA   [module 7E2: block 01 (DTC-clear run distance)]
 2026-10-13 20:08:55.813 INFO MarutiScan: done
+2026-10-13 20:09:09.761 INFO MarutiScan: start, 42 requests
+2026-10-13 20:09:10.487 INFO MarutiScan: 7DF 0131 -> 7E80441312136 | 7EE044131213C   [PID 31 distance since DTC clear (km)]
+2026-10-13 20:09:11.026 INFO MarutiScan: 7DF 0121 -> 7E80441210000 | 7EE0441210000   [PID 21 distance with MIL on (km)]
+2026-10-13 20:09:11.368 INFO MarutiScan: 7DF 2100 -> NO DATA   [local block 00: fuel level at byte 52]
+2026-10-13 20:09:11.675 INFO MarutiScan: 7E0 22F4A6 -> 7E8037F2231   [engine: vehicle odometer (32-bit /10 km)]
+2026-10-13 20:09:12.240 INFO MarutiScan: 7E0 22DD01 -> 7E8037F2231   [engine: odometer (24-bit km)]
+2026-10-13 20:09:12.768 INFO MarutiScan: 7E0 2128 -> 7E8037F2111   [engine: odometer (24-bit km)]
+2026-10-13 20:09:13.164 INFO MarutiScan: 7E0 22F42F -> 7E8037F2231   [engine: fuel level (% x100/255)]
+2026-10-13 20:09:13.668 INFO MarutiScan: 7E0 22002F -> 7E8037F2231   [engine: fuel level (% x100/255)]
+2026-10-13 20:09:14.163 INFO MarutiScan: 7E0 22F431 -> 7E8037F2231   [engine: distance since DTC clear (km)]
+2026-10-13 20:09:14.642 INFO MarutiScan: 7E0 221155 -> 7E8037F2231   [engine: estimated distance to oil change (x100 km)]
+2026-10-13 20:09:15.079 INFO MarutiScan: 7E0 2151 -> 7E8037F2111   [engine: previous trip distance (bytes 5-6 /100 km)]
+2026-10-13 20:09:15.514 INFO MarutiScan: 7E0 2106 -> 7E8037F2111   [engine: MIL-on run distance]
+2026-10-13 20:09:16.009 INFO MarutiScan: 7E0 2101 -> 7E8037F2111   [engine: local block 01 (MAP, baro)]
+2026-10-13 20:09:16.466 INFO MarutiScan: 7C0 221022 -> NO DATA   [cluster: fuel level (16-bit /100 L)]
+2026-10-13 20:09:16.929 INFO MarutiScan: 7C0 2129 -> NO DATA   [cluster: fuel level volume]
+2026-10-13 20:09:17.398 INFO MarutiScan: 7C0 2141 -> NO DATA   [cluster: distance since oil change]
+2026-10-13 20:09:17.809 INFO MarutiScan: 7C0 2112 -> NO DATA   [cluster: oil pressure switch block]
+2026-10-13 20:09:18.191 INFO MarutiScan: 720 22DD01 -> NO DATA   [cluster (720): odometer (24-bit km)]
+2026-10-13 20:09:18.603 INFO MarutiScan: 720 2261B1 -> NO DATA   [cluster (720): fuel level (%)]
+2026-10-13 20:09:19.135 INFO MarutiScan: 720 222A05 -> NO DATA   [tyre pressure wheel 1]
+2026-10-13 20:09:19.509 INFO MarutiScan: 720 222A06 -> NO DATA   [tyre pressure wheel 2]
+2026-10-13 20:09:19.919 INFO MarutiScan: 720 222A07 -> NO DATA   [tyre pressure wheel 3]
+2026-10-13 20:09:20.286 INFO MarutiScan: 720 222A08 -> NO DATA   [tyre pressure wheel 4]
+2026-10-13 20:09:20.768 INFO MarutiScan: 760 22DD01 -> NO DATA   [stability control: odometer (24-bit km)]
+2026-10-13 20:09:21.116 INFO MarutiScan: 700 220103 -> NO DATA   [module 700: odometer (bytes 1-3 km)]
+2026-10-13 20:09:21.553 INFO MarutiScan: 700 221F2F -> NO DATA   [module 700: fuel level (% x100/255)]
+2026-10-13 20:09:21.963 INFO MarutiScan: 700 22113C -> NO DATA   [module 700: fuel pressures 1-4 (x10 kPa) - CNG tank?]
+2026-10-13 20:09:22.307 INFO MarutiScan: 700 2211C4 -> NO DATA   [module 700: fuel pressures 1-6 (x10 kPa) - CNG?]
+2026-10-13 20:09:22.618 INFO MarutiScan: 700 2210CD -> NO DATA   [module 700: low fuel pressure (/10 -3276.8 kPa)]
+2026-10-13 20:09:22.989 INFO MarutiScan: 700 221F6D -> NO DATA   [module 700: high fuel pressure target/actual (x10 kPa)]
+2026-10-13 20:09:23.322 INFO MarutiScan: 700 22106C -> NO DATA   [module 700: distance since battery disconnect (km)]
+2026-10-13 20:09:23.780 INFO MarutiScan: 701 220103 -> NO DATA   [module 701: odometer (bytes 1-3 km)]
+2026-10-13 20:09:24.203 INFO MarutiScan: 7D2 220103 -> NO DATA   [module 7D2: odometer (bytes 1-3 km)]
+2026-10-13 20:09:24.670 INFO MarutiScan: 7D2 221FA6 -> NO DATA   [module 7D2: odometer (32-bit /10 km)]
+2026-10-13 20:09:25.044 INFO MarutiScan: 747 220103 -> NO DATA   [module 747: odometer (bytes 1-3 km)]
+2026-10-13 20:09:25.516 INFO MarutiScan: 7A2 2210A5 -> NO DATA   [module 7A2: odometer (x2 km)]
+2026-10-13 20:09:25.928 INFO MarutiScan: 7A2 2210E5 -> NO DATA   [module 7A2: odometer (x2 km)]
+2026-10-13 20:09:26.243 INFO MarutiScan: 7A2 2210E6 -> NO DATA   [module 7A2: fuel tank air pressure]
+2026-10-13 20:09:26.661 INFO MarutiScan: 7A2 221155 -> NO DATA   [module 7A2: estimated distance to oil change]
+2026-10-13 20:09:27.069 INFO MarutiScan: 750 2130 -> NO DATA   [TPMS 750: tyre pressures]
+2026-10-13 20:09:27.509 INFO MarutiScan: 750 221005 -> NO DATA   [TPMS 750: tyre pressures]
+2026-10-13 20:09:27.809 INFO MarutiScan: 7E2 2101 -> NO DATA   [module 7E2: block 01 (DTC-clear run distance)]
+2026-10-13 20:09:28.281 INFO MarutiScan: done
+2026-10-13 20:09:31.261 ERROR Sync: Failed to upload log app-20261012.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at de143ad237b0b3181adf0b9775c811c129ff4eef but expected d98ae23736e9fbcaf55ca139cc46ce39f80df312","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

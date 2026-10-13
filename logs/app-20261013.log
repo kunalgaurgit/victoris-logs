@@ -2994,3 +2994,27 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 2026-10-13 21:49:17.549 INFO DriveService: Trip saved: 32.013228611111195 km
 2026-10-13 21:49:17.848 INFO Sync: Skipping large track file 1791905780460.csv (953220 bytes > 900 KB)
 2026-10-13 21:49:20.126 INFO Sync: Synced trip 1791905780460
+2026-10-13 21:49:31.008 ERROR Sync: Failed to upload log app-20261011.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 8f3a2c27de10fbeccb5f7a96a7422e3e3a744b6a but expected dfa2225ef19624f9f040f413fbea0456392b38f8","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 21:49:37.510 ERROR Sync: Failed to upload log app-20261013.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 272025735d8dd43d0a6a1d67e7c4bb9c2e57bb58 but expected 15ae98ab8a7ce46ced55c3e3800b550fbc4ec7c0","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

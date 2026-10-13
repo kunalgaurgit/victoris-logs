@@ -1165,3 +1165,1044 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-13 20:29:26.407 ERROR Sync: Failed to upload log app-20261011.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:29:26.417 ERROR Sync: Failed to upload log app-20261012.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:29:26.455 ERROR Sync: Failed to upload log app-20261013.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:29:26.457 ERROR Sync: Failed to fetch settings/apply.json
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.fetchFile-BWLJW6A(GitHubUploader.kt:88)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:180)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:29:26.461 ERROR Sync: Failed to upload settings
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:191)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:29:26.467 ERROR Sync: Failed to upload fills summary
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:214)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:30:27.062 ERROR Sync: Failed to upload log app-20261011.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:30:27.086 ERROR Sync: Failed to upload log app-20261012.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:30:27.108 ERROR Sync: Failed to upload log app-20261013.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:30:27.111 ERROR Sync: Failed to fetch settings/apply.json
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.fetchFile-BWLJW6A(GitHubUploader.kt:88)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:180)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:30:27.117 ERROR Sync: Failed to upload settings
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:191)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:30:27.126 ERROR Sync: Failed to upload fills summary
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:214)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:32:27.851 ERROR Sync: Failed to upload log app-20261011.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:32:27.867 ERROR Sync: Failed to upload log app-20261012.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:32:27.906 ERROR Sync: Failed to upload log app-20261013.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:32:27.909 ERROR Sync: Failed to fetch settings/apply.json
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.fetchFile-BWLJW6A(GitHubUploader.kt:88)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:180)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:32:27.916 ERROR Sync: Failed to upload settings
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:191)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:32:27.924 ERROR Sync: Failed to upload fills summary
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:214)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:36:28.588 ERROR Sync: Failed to upload log app-20261011.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:36:28.599 ERROR Sync: Failed to upload log app-20261012.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:36:28.641 ERROR Sync: Failed to upload log app-20261013.log
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:36:28.642 ERROR Sync: Failed to fetch settings/apply.json
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:411)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:542)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getResponseCode(DelegatingHttpsURLConnection.java:106)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.fetchFile-BWLJW6A(GitHubUploader.kt:88)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:180)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:36:28.652 ERROR Sync: Failed to upload settings
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:191)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:36:28.666 ERROR Sync: Failed to upload fills summary
+java.net.UnknownHostException: Unable to resolve host "api.github.com": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:124)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:103)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at com.android.okhttp.Dns$1.lookup(Dns.java:41)
+	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:178)
+	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:144)
+	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:86)
+	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:176)
+	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:27)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:55)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:214)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:38:54.805 INFO MarutiScan: start, 58 requests
+2026-10-13 20:38:55.092 INFO MarutiScan: 7DF 0131 -> 7E80441312136 | 7EE044131213C   [PID 31 distance since DTC clear (km)]
+2026-10-13 20:38:55.308 INFO MarutiScan: 7DF 0121 -> 7E80441210000 | 7EE0441210000   [PID 21 distance with MIL on (km)]
+2026-10-13 20:38:55.496 INFO MarutiScan: 7DF 2100 -> NO DATA   [local block 00: fuel level at byte 52]
+2026-10-13 20:38:55.697 INFO MarutiScan: 7E0 22F4A6 -> 7E8037F2231   [engine: vehicle odometer (32-bit /10 km)]
+2026-10-13 20:38:55.884 INFO MarutiScan: 7E0 22DD01 -> 7E8037F2231   [engine: odometer (24-bit km)]
+2026-10-13 20:38:56.064 INFO MarutiScan: 7E0 2128 -> 7E8037F2111   [engine: odometer (24-bit km)]
+2026-10-13 20:38:56.258 INFO MarutiScan: 7E0 22F42F -> 7E8037F2231   [engine: fuel level (% x100/255)]
+2026-10-13 20:38:56.446 INFO MarutiScan: 7E6 0100 -> 7EE037F0111   [second ECU 7EE (CNG?): 0100]
+2026-10-13 20:38:56.619 INFO MarutiScan: 7E6 0120 -> 7EE037F0111   [second ECU 7EE (CNG?): 0120]
+2026-10-13 20:38:56.808 INFO MarutiScan: 7E6 0140 -> 7EE037F0111   [second ECU 7EE (CNG?): 0140]
+2026-10-13 20:38:57.004 INFO MarutiScan: 7E6 0160 -> 7EE037F0111   [second ECU 7EE (CNG?): 0160]
+2026-10-13 20:38:57.218 INFO MarutiScan: 7E6 0131 -> 7EE037F0111   [second ECU 7EE (CNG?): 0131]
+2026-10-13 20:38:57.380 INFO MarutiScan: 7E6 22F190 -> 7EE037F2211   [second ECU 7EE (CNG?): 22F190]
+2026-10-13 20:38:57.558 INFO MarutiScan: 7E6 22F187 -> 7EE037F2211   [second ECU 7EE (CNG?): 22F187]
+2026-10-13 20:38:57.744 INFO MarutiScan: 7E6 22F42F -> 7EE037F2211   [second ECU 7EE (CNG?): 22F42F]
+2026-10-13 20:38:57.917 INFO MarutiScan: 7E6 22F4A6 -> 7EE037F2211   [second ECU 7EE (CNG?): 22F4A6]
+2026-10-13 20:38:58.084 INFO MarutiScan: 7E6 22DD01 -> 7EE037F2211   [second ECU 7EE (CNG?): 22DD01]
+2026-10-13 20:38:58.254 INFO MarutiScan: 7E6 220103 -> 7EE037F2211   [second ECU 7EE (CNG?): 220103]
+2026-10-13 20:38:58.513 INFO MarutiScan: 7E6 22113C -> 7EE037F2211   [second ECU 7EE (CNG?): 22113C]
+2026-10-13 20:38:58.670 INFO MarutiScan: 7E6 2210CD -> 7EE037F2211   [second ECU 7EE (CNG?): 2210CD]
+2026-10-13 20:38:58.838 INFO MarutiScan: 7E6 221F6D -> 7EE037F2211   [second ECU 7EE (CNG?): 221F6D]
+2026-10-13 20:38:59.023 INFO MarutiScan: 7E6 2101 -> 7EE037F2112   [second ECU 7EE (CNG?): 2101]
+2026-10-13 20:38:59.192 INFO MarutiScan: 7E6 2121 -> 7EE037F2112   [second ECU 7EE (CNG?): 2121]
+2026-10-13 20:38:59.352 INFO MarutiScan: 7E0 22002F -> 7E8037F2231   [engine: fuel level (% x100/255)]
+2026-10-13 20:38:59.520 INFO MarutiScan: 7E0 22F431 -> 7E8037F2231   [engine: distance since DTC clear (km)]
+2026-10-13 20:38:59.732 INFO MarutiScan: 7E0 221155 -> 7E8037F2231   [engine: estimated distance to oil change (x100 km)]
+2026-10-13 20:38:59.895 INFO MarutiScan: 7E0 2151 -> 7E8037F2111   [engine: previous trip distance (bytes 5-6 /100 km)]
+2026-10-13 20:39:00.074 INFO MarutiScan: 7E0 2106 -> 7E8037F2111   [engine: MIL-on run distance]
+2026-10-13 20:39:00.254 INFO MarutiScan: 7E0 2101 -> 7E8037F2111   [engine: local block 01 (MAP, baro)]
+2026-10-13 20:39:00.452 INFO MarutiScan: 7C0 221022 -> NO DATA   [cluster: fuel level (16-bit /100 L)]
+2026-10-13 20:39:00.600 INFO MarutiScan: 7C0 2129 -> NO DATA   [cluster: fuel level volume]
+2026-10-13 20:39:00.746 INFO MarutiScan: 7C0 2141 -> NO DATA   [cluster: distance since oil change]
+2026-10-13 20:39:00.959 INFO MarutiScan: 7C0 2112 -> NO DATA   [cluster: oil pressure switch block]
+2026-10-13 20:39:01.100 INFO MarutiScan: 720 22DD01 -> NO DATA   [cluster (720): odometer (24-bit km)]
+2026-10-13 20:39:01.266 INFO MarutiScan: 720 2261B1 -> NO DATA   [cluster (720): fuel level (%)]
+2026-10-13 20:39:01.420 INFO MarutiScan: 720 222A05 -> NO DATA   [tyre pressure wheel 1]
+2026-10-13 20:39:01.642 INFO MarutiScan: 720 222A06 -> NO DATA   [tyre pressure wheel 2]
+2026-10-13 20:39:01.796 INFO MarutiScan: 720 222A07 -> NO DATA   [tyre pressure wheel 3]
+2026-10-13 20:39:01.948 INFO MarutiScan: 720 222A08 -> NO DATA   [tyre pressure wheel 4]
+2026-10-13 20:39:02.112 INFO MarutiScan: 760 22DD01 -> NO DATA   [stability control: odometer (24-bit km)]
+2026-10-13 20:39:02.265 INFO MarutiScan: 700 220103 -> NO DATA   [module 700: odometer (bytes 1-3 km)]
+2026-10-13 20:39:02.463 INFO MarutiScan: 700 221F2F -> NO DATA   [module 700: fuel level (% x100/255)]
+2026-10-13 20:39:02.632 INFO MarutiScan: 700 22113C -> NO DATA   [module 700: fuel pressures 1-4 (x10 kPa) - CNG tank?]
+2026-10-13 20:39:02.794 INFO MarutiScan: 700 2211C4 -> NO DATA   [module 700: fuel pressures 1-6 (x10 kPa) - CNG?]
+2026-10-13 20:39:02.972 INFO MarutiScan: 700 2210CD -> NO DATA   [module 700: low fuel pressure (/10 -3276.8 kPa)]
+2026-10-13 20:39:03.161 INFO MarutiScan: 700 221F6D -> NO DATA   [module 700: high fuel pressure target/actual (x10 kPa)]
+2026-10-13 20:39:03.328 INFO MarutiScan: 700 22106C -> NO DATA   [module 700: distance since battery disconnect (km)]
+2026-10-13 20:39:03.491 INFO MarutiScan: 701 220103 -> NO DATA   [module 701: odometer (bytes 1-3 km)]
+2026-10-13 20:39:03.643 INFO MarutiScan: 7D2 220103 -> NO DATA   [module 7D2: odometer (bytes 1-3 km)]
+2026-10-13 20:39:03.788 INFO MarutiScan: 7D2 221FA6 -> NO DATA   [module 7D2: odometer (32-bit /10 km)]
+2026-10-13 20:39:03.949 INFO MarutiScan: 747 220103 -> NO DATA   [module 747: odometer (bytes 1-3 km)]
+2026-10-13 20:39:04.125 INFO MarutiScan: 7A2 2210A5 -> NO DATA   [module 7A2: odometer (x2 km)]
+2026-10-13 20:39:04.316 INFO MarutiScan: 7A2 2210E5 -> NO DATA   [module 7A2: odometer (x2 km)]
+2026-10-13 20:39:04.463 INFO MarutiScan: 7A2 2210E6 -> NO DATA   [module 7A2: fuel tank air pressure]
+2026-10-13 20:39:04.606 INFO MarutiScan: 7A2 221155 -> NO DATA   [module 7A2: estimated distance to oil change]
+2026-10-13 20:39:04.745 INFO MarutiScan: 750 2130 -> NO DATA   [TPMS 750: tyre pressures]
+2026-10-13 20:39:04.934 INFO MarutiScan: 750 221005 -> NO DATA   [TPMS 750: tyre pressures]
+2026-10-13 20:39:05.078 INFO MarutiScan: 7E2 2101 -> NO DATA   [module 7E2: block 01 (DTC-clear run distance)]
+2026-10-13 20:39:05.268 INFO MarutiScan: 7DF 0100 -> 7E8064100BE3FA813 | 7EE06410080000001   [broadcast, all ECUs]
+2026-10-13 20:39:05.460 INFO MarutiScan: 7DF 0120 -> 7E80641208015B001 | 7EE06412080018001   [broadcast, all ECUs]
+2026-10-13 20:39:05.720 INFO MarutiScan: 7DF 0140 -> 7EE06414040000000 | 7E80641406AD00000   [broadcast, all ECUs]
+2026-10-13 20:39:05.869 INFO MarutiScan: 7DF 0160 -> NO DATA   [broadcast, all ECUs]
+2026-10-13 20:39:06.479 INFO MarutiScan: 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF10FA11 | 7EE230D110010EA10FA | 7EE24110D110010EAFF | 7EE25FFFF2A0AECFFFF | 7EE26FF00216B54FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5200E000BFFF | 7EE2A1A933532FFFFFF | 7EE2B09310A29353206 | 7EE2C1BFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF   [7EE block sweep]
+2026-10-13 20:39:06.663 INFO MarutiScan: 7E6 2101 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:06.838 INFO MarutiScan: 7E6 2102 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:07.015 INFO MarutiScan: 7E6 2103 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:07.214 INFO MarutiScan: 7E6 2104 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:07.381 INFO MarutiScan: 7E6 2105 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:07.575 INFO MarutiScan: 7E6 2106 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:07.750 INFO MarutiScan: 7E6 2107 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:07.935 INFO MarutiScan: 7E6 2108 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:08.102 INFO MarutiScan: 7E6 2109 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:08.315 INFO MarutiScan: 7E6 210A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:08.488 INFO MarutiScan: 7E6 210B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:08.649 INFO MarutiScan: 7E6 210C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:08.824 INFO MarutiScan: 7E6 210D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:09.077 INFO MarutiScan: 7E6 210E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:09.261 INFO MarutiScan: 7E6 210F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:09.433 INFO MarutiScan: 7E6 2110 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:09.629 INFO MarutiScan: 7E6 2111 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:09.788 INFO MarutiScan: 7E6 2112 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:09.949 INFO MarutiScan: 7E6 2113 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:10.111 INFO MarutiScan: 7E6 2114 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:10.332 INFO MarutiScan: 7E6 2115 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:10.495 INFO MarutiScan: 7E6 2116 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:10.672 INFO MarutiScan: 7E6 2117 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:10.917 INFO MarutiScan: 7E6 2118 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:11.088 INFO MarutiScan: 7E6 2119 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:11.256 INFO MarutiScan: 7E6 211A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:11.425 INFO MarutiScan: 7E6 211B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:11.609 INFO MarutiScan: 7E6 211C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:11.779 INFO MarutiScan: 7E6 211D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:11.950 INFO MarutiScan: 7E6 211E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:12.120 INFO MarutiScan: 7E6 211F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:12.279 INFO MarutiScan: 7E6 2120 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:12.440 INFO MarutiScan: 7E6 2121 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:12.610 INFO MarutiScan: 7E6 2122 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:12.788 INFO MarutiScan: 7E6 2123 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:13.017 INFO MarutiScan: 7E6 2124 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:13.207 INFO MarutiScan: 7E6 2125 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:13.407 INFO MarutiScan: 7E6 2126 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:13.626 INFO MarutiScan: 7E6 2127 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:13.790 INFO MarutiScan: 7E6 2128 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:13.961 INFO MarutiScan: 7E6 2129 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:14.122 INFO MarutiScan: 7E6 212A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:14.336 INFO MarutiScan: 7E6 212B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:14.501 INFO MarutiScan: 7E6 212C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:14.683 INFO MarutiScan: 7E6 212D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:14.864 INFO MarutiScan: 7E6 212E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:15.057 INFO MarutiScan: 7E6 212F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:15.224 INFO MarutiScan: 7E6 2130 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:15.405 INFO MarutiScan: 7E6 2131 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:15.633 INFO MarutiScan: 7E6 2132 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:15.805 INFO MarutiScan: 7E6 2133 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:15.980 INFO MarutiScan: 7E6 2134 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:16.153 INFO MarutiScan: 7E6 2135 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:16.372 INFO MarutiScan: 7E6 2136 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:16.536 INFO MarutiScan: 7E6 2137 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:16.708 INFO MarutiScan: 7E6 2138 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:16.932 INFO MarutiScan: 7E6 2139 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:17.108 INFO MarutiScan: 7E6 213A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:17.283 INFO MarutiScan: 7E6 213B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:17.488 INFO MarutiScan: 7E6 213C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:17.685 INFO MarutiScan: 7E6 213D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:17.849 INFO MarutiScan: 7E6 213E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:18.019 INFO MarutiScan: 7E6 213F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:18.268 INFO MarutiScan: 7E6 2140 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:18.450 INFO MarutiScan: 7E6 2141 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:18.646 INFO MarutiScan: 7E6 2142 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:18.824 INFO MarutiScan: 7E6 2143 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:18.987 INFO MarutiScan: 7E6 2144 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:19.162 INFO MarutiScan: 7E6 2145 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:19.332 INFO MarutiScan: 7E6 2146 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:19.513 INFO MarutiScan: 7E6 2147 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:19.729 INFO MarutiScan: 7E6 2148 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:19.910 INFO MarutiScan: 7E6 2149 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:20.072 INFO MarutiScan: 7E6 214A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:20.309 INFO MarutiScan: 7E6 214B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:20.469 INFO MarutiScan: 7E6 214C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:20.650 INFO MarutiScan: 7E6 214D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:20.841 INFO MarutiScan: 7E6 214E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:21.011 INFO MarutiScan: 7E6 214F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:21.198 INFO MarutiScan: 7E6 2150 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:21.377 INFO MarutiScan: 7E6 2151 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:21.573 INFO MarutiScan: 7E6 2152 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:21.749 INFO MarutiScan: 7E6 2153 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:21.911 INFO MarutiScan: 7E6 2154 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:22.087 INFO MarutiScan: 7E6 2155 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:22.311 INFO MarutiScan: 7E6 2156 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:22.518 INFO MarutiScan: 7E6 2157 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:22.685 INFO MarutiScan: 7E6 2158 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:22.912 INFO MarutiScan: 7E6 2159 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:23.092 INFO MarutiScan: 7E6 215A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:23.268 INFO MarutiScan: 7E6 215B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:23.511 INFO MarutiScan: 7E6 215C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:23.681 INFO MarutiScan: 7E6 215D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:23.849 INFO MarutiScan: 7E6 215E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:24.019 INFO MarutiScan: 7E6 215F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:24.199 INFO MarutiScan: 7E6 2160 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:24.370 INFO MarutiScan: 7E6 2161 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:24.536 INFO MarutiScan: 7E6 2162 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:24.773 INFO MarutiScan: 7E6 2163 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:24.941 INFO MarutiScan: 7E6 2164 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:25.111 INFO MarutiScan: 7E6 2165 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:25.279 INFO MarutiScan: 7E6 2166 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:25.446 INFO MarutiScan: 7E6 2167 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:25.610 INFO MarutiScan: 7E6 2168 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:25.771 INFO MarutiScan: 7E6 2169 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:25.951 INFO MarutiScan: 7E6 216A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:26.205 INFO MarutiScan: 7E6 216B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:26.397 INFO MarutiScan: 7E6 216C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:26.564 INFO MarutiScan: 7E6 216D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:26.747 INFO MarutiScan: 7E6 216E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:26.935 INFO MarutiScan: 7E6 216F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:27.115 INFO MarutiScan: 7E6 2170 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:27.284 INFO MarutiScan: 7E6 2171 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:27.489 INFO MarutiScan: 7E6 2172 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:27.662 INFO MarutiScan: 7E6 2173 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:27.833 INFO MarutiScan: 7E6 2174 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:28.011 INFO MarutiScan: 7E6 2175 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:28.234 INFO MarutiScan: 7E6 2176 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:28.413 INFO MarutiScan: 7E6 2177 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:28.580 INFO MarutiScan: 7E6 2178 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:28.780 INFO MarutiScan: 7E6 2179 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:28.940 INFO MarutiScan: 7E6 217A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:29.107 INFO MarutiScan: 7E6 217B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:29.295 INFO MarutiScan: 7E6 217C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:29.535 INFO MarutiScan: 7E6 217D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:29.701 INFO MarutiScan: 7E6 217E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:29.868 INFO MarutiScan: 7E6 217F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:30.043 INFO MarutiScan: 7E6 2180 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:30.248 INFO MarutiScan: 7E6 2181 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:30.420 INFO MarutiScan: 7E6 2182 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:30.628 INFO MarutiScan: 7E6 2183 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:30.833 INFO MarutiScan: 7E6 2184 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:31.011 INFO MarutiScan: 7E6 2185 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:31.196 INFO MarutiScan: 7E6 2186 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:31.411 INFO MarutiScan: 7E6 2187 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:31.595 INFO MarutiScan: 7E6 2188 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:31.759 INFO MarutiScan: 7E6 2189 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:31.924 INFO MarutiScan: 7E6 218A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:32.098 INFO MarutiScan: 7E6 218B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:32.275 INFO MarutiScan: 7E6 218C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:32.454 INFO MarutiScan: 7E6 218D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:32.661 INFO MarutiScan: 7E6 218E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:32.836 INFO MarutiScan: 7E6 218F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:33.009 INFO MarutiScan: 7E6 2190 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:33.198 INFO MarutiScan: 7E6 2191 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:33.460 INFO MarutiScan: 7E6 2192 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:33.621 INFO MarutiScan: 7E6 2193 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:33.800 INFO MarutiScan: 7E6 2194 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:33.989 INFO MarutiScan: 7E6 2195 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:34.208 INFO MarutiScan: 7E6 2196 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:34.380 INFO MarutiScan: 7E6 2197 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:34.621 INFO MarutiScan: 7E6 2198 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:34.790 INFO MarutiScan: 7E6 2199 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:34.957 INFO MarutiScan: 7E6 219A -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:35.120 INFO MarutiScan: 7E6 219B -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:35.321 INFO MarutiScan: 7E6 219C -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:35.502 INFO MarutiScan: 7E6 219D -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:35.671 INFO MarutiScan: 7E6 219E -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:35.831 INFO MarutiScan: 7E6 219F -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:36.007 INFO MarutiScan: 7E6 21A0 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:36.200 INFO MarutiScan: 7E6 21A1 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:36.362 INFO MarutiScan: 7E6 21A2 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:36.558 INFO MarutiScan: 7E6 21A3 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:36.778 INFO MarutiScan: 7E6 21A4 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:36.942 INFO MarutiScan: 7E6 21A5 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:37.115 INFO MarutiScan: 7E6 21A6 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:37.341 INFO MarutiScan: 7E6 21A7 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:37.507 INFO MarutiScan: 7E6 21A8 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:37.668 INFO MarutiScan: 7E6 21A9 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:37.874 INFO MarutiScan: 7E6 21AA -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:38.066 INFO MarutiScan: 7E6 21AB -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:38.242 INFO MarutiScan: 7E6 21AC -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:38.419 INFO MarutiScan: 7E6 21AD -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:38.591 INFO MarutiScan: 7E6 21AE -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:38.820 INFO MarutiScan: 7E6 21AF -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:39.014 INFO MarutiScan: 7E6 21B0 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:39.179 INFO MarutiScan: 7E6 21B1 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:39.352 INFO MarutiScan: 7E6 21B2 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:39.530 INFO MarutiScan: 7E6 21B3 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:39.711 INFO MarutiScan: 7E6 21B4 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:39.903 INFO MarutiScan: 7E6 21B5 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:40.114 INFO MarutiScan: 7E6 21B6 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:40.303 INFO MarutiScan: 7E6 21B7 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:40.474 INFO MarutiScan: 7E6 21B8 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:40.647 INFO MarutiScan: 7E6 21B9 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:40.818 INFO MarutiScan: 7E6 21BA -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:41.010 INFO MarutiScan: 7E6 21BB -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:41.198 INFO MarutiScan: 7E6 21BC -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:41.393 INFO MarutiScan: 7E6 21BD -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:41.561 INFO MarutiScan: 7E6 21BE -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:41.736 INFO MarutiScan: 7E6 21BF -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:41.922 INFO MarutiScan: 7E6 21C0 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:42.096 INFO MarutiScan: 7E6 21C1 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:42.288 INFO MarutiScan: 7E6 21C2 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:42.459 INFO MarutiScan: 7E6 21C3 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:42.684 INFO MarutiScan: 7E6 21C4 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:42.885 INFO MarutiScan: 7E6 21C5 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:43.057 INFO MarutiScan: 7E6 21C6 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:43.300 INFO MarutiScan: 7E6 21C7 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:43.475 INFO MarutiScan: 7E6 21C8 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:43.650 INFO MarutiScan: 7E6 21C9 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:43.837 INFO MarutiScan: 7E6 21CA -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:44.035 INFO MarutiScan: 7E6 21CB -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:44.220 INFO MarutiScan: 7E6 21CC -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:44.403 INFO MarutiScan: 7E6 21CD -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:44.581 INFO MarutiScan: 7E6 21CE -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:44.757 INFO MarutiScan: 7E6 21CF -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:44.937 INFO MarutiScan: 7E6 21D0 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:45.109 INFO MarutiScan: 7E6 21D1 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:45.329 INFO MarutiScan: 7E6 21D2 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:45.531 INFO MarutiScan: 7E6 21D3 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:45.695 INFO MarutiScan: 7E6 21D4 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:45.859 INFO MarutiScan: 7E6 21D5 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:46.025 INFO MarutiScan: 7E6 21D6 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:46.200 INFO MarutiScan: 7E6 21D7 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:46.359 INFO MarutiScan: 7E6 21D8 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:46.602 INFO MarutiScan: 7E6 21D9 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:46.806 INFO MarutiScan: 7E6 21DA -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:46.996 INFO MarutiScan: 7E6 21DB -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:47.229 INFO MarutiScan: 7E6 21DC -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:47.399 INFO MarutiScan: 7E6 21DD -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:47.589 INFO MarutiScan: 7E6 21DE -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:47.759 INFO MarutiScan: 7E6 21DF -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:47.991 INFO MarutiScan: 7E6 21E0 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:48.163 INFO MarutiScan: 7E6 21E1 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:48.354 INFO MarutiScan: 7E6 21E2 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:48.552 INFO MarutiScan: 7E6 21E3 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:48.719 INFO MarutiScan: 7E6 21E4 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:48.897 INFO MarutiScan: 7E6 21E5 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:49.098 INFO MarutiScan: 7E6 21E6 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:49.308 INFO MarutiScan: 7E6 21E7 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:49.468 INFO MarutiScan: 7E6 21E8 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:49.649 INFO MarutiScan: 7E6 21E9 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:49.828 INFO MarutiScan: 7E6 21EA -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:50.009 INFO MarutiScan: 7E6 21EB -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:50.190 INFO MarutiScan: 7E6 21EC -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:50.376 INFO MarutiScan: 7E6 21ED -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:50.592 INFO MarutiScan: 7E6 21EE -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:50.778 INFO MarutiScan: 7E6 21EF -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:50.961 INFO MarutiScan: 7E6 21F0 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:51.193 INFO MarutiScan: 7E6 21F1 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:51.360 INFO MarutiScan: 7E6 21F2 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:51.532 INFO MarutiScan: 7E6 21F3 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:51.707 INFO MarutiScan: 7E6 21F4 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:51.987 INFO MarutiScan: 7E6 21F5 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:52.155 INFO MarutiScan: 7E6 21F6 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:52.322 INFO MarutiScan: 7E6 21F7 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:52.499 INFO MarutiScan: 7E6 21F8 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:52.673 INFO MarutiScan: 7E6 21F9 -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:52.854 INFO MarutiScan: 7E6 21FA -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:53.037 INFO MarutiScan: 7E6 21FB -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:53.285 INFO MarutiScan: 7E6 21FC -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:53.455 INFO MarutiScan: 7E6 21FD -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:53.621 INFO MarutiScan: 7E6 21FE -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:53.861 INFO MarutiScan: 7E6 21FF -> 7EE037F2112   [7EE block sweep]
+2026-10-13 20:39:54.003 INFO MarutiScan: WATCH LIDs: 2100
+2026-10-13 20:40:04.703 INFO MarutiScan: WATCH t=10s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF154D13 | 7EE23DA164A1660154D | 7EE2413DA164A1660FF | 7EE25FFFF3D0AECFFFF | 7EE26FF002D7154FF10 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5300EB00BBFF | 7EE2A1A543617FFFFFF | 7EE2B099B09FF361706 | 7EE2C14FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF2232 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:40:15.583 INFO MarutiScan: WATCH t=20s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF114011 | 7EE232D1140112A1140 | 7EE24112D1140112AFF | 7EE25FFFF2A0B1BFFFF | 7EE26FF00227154FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5300E000BDFF | 7EE2A1A733625FFFFFF | 7EE2B093309F8362506 | 7EE2C16FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:40:26.409 INFO MarutiScan: WATCH t=30s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF182718 | 7EE2317182018201827 | 7EE24181718201820FF | 7EE25FFFF420CD1FFFF | 7EE26FF002F7254FF12 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400ED00BEFF | 7EE2A1A543500FFFFFF | 7EE2B09AE09F1350006 | 7EE2C14FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:40:37.322 INFO MarutiScan: WATCH t=40s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF161716 | 7EE236A162D166A1617 | 7EE24166A162D166AFF | 7EE25FFFF3D0B69FFFF | 7EE26FF002B7354FF0F | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400E800BDFF | 7EE2A1A7335A5FFFFFF | 7EE2B097D09EE35A506 | 7EE2C15FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:40:48.141 INFO MarutiScan: WATCH t=50s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF10F011 | 7EE230710EA10F710F0 | 7EE24110710EA10F7FF | 7EE25FFFF290AFCFFFF | 7EE26FF00207454FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400DE00BEFF | 7EE2A1A7334F2FFFFFF | 7EE2B091A09E834F206 | 7EE2C15FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:40:59.023 INFO MarutiScan: WATCH t=60s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF182D18 | 7EE230D18401813182D | 7EE24180D18401813FF | 7EE25FFFF420CE0FFFF | 7EE26FF00307454FF12 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400EE00BCFF | 7EE2A1A7333FBFFFFFF | 7EE2B09BD09E033FB06 | 7EE2C18FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0432 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:41:09.963 INFO MarutiScan: WATCH t=70s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF105A10 | 7EE235A10401040105A | 7EE24105A10401040FF | 7EE25FFFF280B0CFFFF | 7EE26FF00217555FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400DF00BDFF | 7EE2A1A54356EFFFFFF | 7EE2B092209DE356E06 | 7EE2C14FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:41:20.799 INFO MarutiScan: WATCH t=80s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF116D11 | 7EE237A114D1150116D | 7EE24117A114D1150FF | 7EE25FFFF290B4AFFFF | 7EE26FF00217555FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400DF00BEFF | 7EE2A1A543577FFFFFF | 7EE2B092509D6357706 | 7EE2C14FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:41:31.673 INFO MarutiScan: WATCH t=90s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF188718 | 7EE234D1867186D1887 | 7EE24184D1867186DFF | 7EE25FFFF440CC1FFFF | 7EE26FF00307655FF12 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400EC00BDFF | 7EE2A1A3534DBFFFFFF | 7EE2B09A309D034DB06 | 7EE2C0EFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:41:42.585 INFO MarutiScan: WATCH t=100s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF10BD10 | 7EE23A710AD10B010BD | 7EE2410A710AD10B0FF | 7EE25FFFF290B0CFFFF | 7EE26FF00207755FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5400DE00BEFF | 7EE2A1A543545FFFFFF | 7EE2B091F09CD354506 | 7EE2C13FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:41:53.491 INFO MarutiScan: WATCH t=110s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF122D11 | 7EE23A711FA11ED122D | 7EE2411A711FA11EDFF | 7EE25FFFF2B0BE6FFFF | 7EE26FF00237755FF0B | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500E000BEFF | 7EE2A1A54353CFFFFFF | 7EE2B092F09C5353C06 | 7EE2C11FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:42:04.339 INFO MarutiScan: WATCH t=120s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF17A717 | 7EE239A17B317A017A7 | 7EE24179A17B317A0FF | 7EE25FFFF400BE6FFFF | 7EE26FF002E7755FF10 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500EB00BCFF | 7EE2A1A3533E4FFFFFF | 7EE2B099F09C133E406 | 7EE2C0FFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:42:15.162 INFO MarutiScan: WATCH t=130s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF10DA10 | 7EE23D010E710EA10DA | 7EE2410D010E710EAFF | 7EE25FFFF290B0CFFFF | 7EE26FF00217855FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500DD00BDFF | 7EE2A1A543505FFFFFF | 7EE2B091709BD350506 | 7EE2C11FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:42:26.024 INFO MarutiScan: WATCH t=140s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF183318 | 7EE234D1830182A1833 | 7EE24184D1830182AFF | 7EE25FFFF410CC1FFFF | 7EE26FF00307855FF11 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500ED00BCFF | 7EE2A1A543512FFFFFF | 7EE2B09AB09B5351206 | 7EE2C10FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:42:36.873 INFO MarutiScan: WATCH t=150s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF102710 | 7EE2317100710031027 | 7EE24101710071003FF | 7EE25FFFF270AFCFFFF | 7EE26FF00207955FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500DD00BDFF | 7EE2A1A3535D3FFFFFF | 7EE2B091609B435D306 | 7EE2C0EFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:42:47.713 INFO MarutiScan: WATCH t=160s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF115711 | 7EE2367116011801157 | 7EE24116711601180FF | 7EE25FFFF290B4AFFFF | 7EE26FF00217955FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500DE00BDFF | 7EE2A1A353505FFFFFF | 7EE2B091F09AC350506 | 7EE2C0FFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:42:58.863 INFO MarutiScan: WATCH t=170s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF17E017 | 7EE23E7180A181017E0 | 7EE2417E7180A1810FF | 7EE25FFFF410CA2FFFF | 7EE26FF00307955FF11 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500ED00BCFF | 7EE2A1A543500FFFFFF | 7EE2B09AC09A6350006 | 7EE2C11FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:43:09.860 INFO MarutiScan: WATCH t=180s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF104A10 | 7EE232710301027104A | 7EE24102710301027FF | 7EE25FFFF270B0CFFFF | 7EE26FF001F7A55FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5500DC00BDFF | 7EE2A1A3535A0FFFFFF | 7EE2B090E09A435A006 | 7EE2C0EFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:43:20.679 INFO MarutiScan: WATCH t=190s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF179717 | 7EE238D1783177A1797 | 7EE24178D1783177AFF | 7EE25FFFF400CB2FFFF | 7EE26FF002E7A55FF11 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5600EB00BCFF | 7EE2A1A163525FFFFFF | 7EE2B099F099B352506 | 7EE2C09FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:43:31.491 INFO MarutiScan: WATCH t=200s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF170716 | 7EE23DA162D169D1707 | 7EE2416DA162D169DFF | 7EE25FFFF3D0BC7FFFF | 7EE26FF002B7A55FF11 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5600E800BBFF | 7EE2A1A163545FFFFFF | 7EE2B097B0999354506 | 7EE2C09FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:43:42.356 INFO MarutiScan: WATCH t=210s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF108710 | 7EE23971080108D1087 | 7EE2410971080108DFF | 7EE25FFFF280AFCFFFF | 7EE26FF00207B56FF0A | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5600DC00BDFF | 7EE2A1A3534C5FFFFFF | 7EE2B090B099434C506 | 7EE2C0EFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:43:53.300 INFO MarutiScan: WATCH t=220s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF17F017 | 7EE23F017E317BA17F0 | 7EE2417F017E317BAFF | 7EE25FFFF410CC1FFFF | 7EE26FF002F7B56FF11 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5600EB00BCFF | 7EE2A1A1634D2FFFFFF | 7EE2B09A0098D34D206 | 7EE2C08FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:44:04.220 INFO MarutiScan: WATCH t=230s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF0FFD0F | 7EE23F31000100A0FFD | 7EE240FF31000100AFF | 7EE25FFFF270AFCFFFF | 7EE26FF001F7C56FF09 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5600DD00BDFF | 7EE2A1A353569FFFFFF | 7EE2B0914098A356906 | 7EE2C0BFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:44:15.029 INFO MarutiScan: WATCH t=240s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF102010 | 7EE2307100010001020 | 7EE24100710001000FF | 7EE25FFFF270BB8FFFF | 7EE26FF00207C56FF0B | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5600DD00BEFF | 7EE2A1A163509FFFFFF | 7EE2B09150982350906 | 7EE2C08FFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF
+2026-10-13 20:44:25.912 INFO MarutiScan: WATCH t=250s 7E6 2100 -> AEE10926100FFFFFFFF | 7EE21FFFFFFFFFFFFFF | 7EE22FFFFFFFF165A16 | 7EE235716301637165A | 7EE24165716301637FF | 7EE25FFFF3D0C35FFFF | 7EE26FF002C7C56FF11 | 7EE27FF0014FFFFFFFF | 7EE28FFFFFFFFFF0002 | 7EE29FF5600E900BCFF | 7EE2A1A1634A5FFFFFF | 7EE2B0985097E34A506 | 7EE2C0AFFFFFFFFFFFF | 7EE2DB49304E0FFFFFF | 7EE2EFF315731373030 | 7EE2F3035FFFFFFFFFF | 7EE2000FF058FFF0032 | 7EE21030000FFFFFFFF | 7EE22FFFFFFFFFFFFFF | 7EE23FFFFFFFFFFFFFF | 7EE24FFFFFFFFFFFFFF

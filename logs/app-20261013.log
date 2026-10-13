@@ -913,3 +913,75 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 2026-10-13 20:25:45.783 INFO MarutiScan: 750 221005 -> NO DATA   [TPMS 750: tyre pressures]
 2026-10-13 20:25:45.948 INFO MarutiScan: 7E2 2101 -> NO DATA   [module 7E2: block 01 (DTC-clear run distance)]
 2026-10-13 20:25:46.145 INFO MarutiScan: done
+2026-10-13 20:26:23.647 ERROR Sync: Failed to upload log app-20261013.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 8515c6f2b3cef2ad20d7539386bb749864758dae but expected db4bbef3ee0737f9e9fee55ce1dede417b01ce0d","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:26:26.260 ERROR Sync: Failed to upload log app-20261012.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 63d0eed18cf883c38e9eeefb8a9d72016c8a0076 but expected 8515c6f2b3cef2ad20d7539386bb749864758dae","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:26:26.874 ERROR Sync: Failed to upload settings
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at fb31a000c747538c3b3c49f1b649761de5a95b9e but expected 63d0eed18cf883c38e9eeefb8a9d72016c8a0076","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:191)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:26:28.917 ERROR Sync: Failed to upload log app-20261013.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 77c64a7ab58cd1e7b8a449af0e0b619919ee22b8 but expected 1c5793ed7546cf85fa082326d12f932f2b90b8bc","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:26:30.332 ERROR Sync: Failed to upload log app-20261013.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 67ec756ff25eee607496c3eb5c1eb6bd7dbe3c41 but expected 77c64a7ab58cd1e7b8a449af0e0b619919ee22b8","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-13 20:26:31.341 ERROR Sync: Failed to upload log app-20261013.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 2441d3235dd6c0f703c1c8ee976c9e53138003f0 but expected 67ec756ff25eee607496c3eb5c1eb6bd7dbe3c41","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:164)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

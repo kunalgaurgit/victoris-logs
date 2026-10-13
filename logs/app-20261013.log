@@ -2965,3 +2965,32 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-13 21:06:23.272 INFO DriveService: Connected to OBD, timing suffix
+2026-10-13 21:06:23.279 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-13 21:06:27.269 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff106a108010571073106a108010571073ffffff261a3effffff39208152ff13ff0014ffffffffffffffffff0002ff6500d900b8ff186034aeffffff08ed072f34ae05c2ffffffffffffb49304e0ffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8510.0
+2026-10-13 21:06:33.245 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-13 21:08:33.083 INFO DriveService: rounds: avg 1257 ms, fast avg 715 ms, multi=off
+2026-10-13 21:10:32.283 INFO DriveService: rounds: avg 1191 ms, fast avg 678 ms, multi=off
+2026-10-13 21:12:26.317 INFO DriveService: rounds: avg 1140 ms, fast avg 654 ms, multi=off
+2026-10-13 21:14:20.124 INFO DriveService: rounds: avg 1137 ms, fast avg 639 ms, multi=off
+2026-10-13 21:16:23.065 INFO DriveService: rounds: avg 1229 ms, fast avg 692 ms, multi=off
+2026-10-13 21:18:27.912 INFO DriveService: rounds: avg 1248 ms, fast avg 689 ms, multi=off
+2026-10-13 21:20:30.504 INFO DriveService: rounds: avg 1225 ms, fast avg 673 ms, multi=off
+2026-10-13 21:22:30.139 INFO DriveService: rounds: avg 1196 ms, fast avg 659 ms, multi=off
+2026-10-13 21:24:23.291 INFO DriveService: rounds: avg 1131 ms, fast avg 639 ms, multi=off
+2026-10-13 21:26:15.121 INFO DriveService: rounds: avg 1118 ms, fast avg 635 ms, multi=off
+2026-10-13 21:28:07.966 INFO DriveService: rounds: avg 1128 ms, fast avg 639 ms, multi=off
+2026-10-13 21:30:00.677 INFO DriveService: rounds: avg 1127 ms, fast avg 639 ms, multi=off
+2026-10-13 21:31:53.625 INFO DriveService: rounds: avg 1129 ms, fast avg 635 ms, multi=off
+2026-10-13 21:33:45.780 INFO DriveService: rounds: avg 1121 ms, fast avg 643 ms, multi=off
+2026-10-13 21:35:38.254 INFO DriveService: rounds: avg 1124 ms, fast avg 638 ms, multi=off
+2026-10-13 21:37:31.615 INFO DriveService: rounds: avg 1133 ms, fast avg 637 ms, multi=off
+2026-10-13 21:39:23.280 INFO DriveService: rounds: avg 1116 ms, fast avg 639 ms, multi=off
+2026-10-13 21:41:15.175 INFO DriveService: rounds: avg 1118 ms, fast avg 636 ms, multi=off
+2026-10-13 21:43:08.059 INFO DriveService: rounds: avg 1128 ms, fast avg 635 ms, multi=off
+2026-10-13 21:45:00.588 INFO DriveService: rounds: avg 1125 ms, fast avg 640 ms, multi=off
+2026-10-13 21:46:51.212 INFO DriveService: rounds: avg 1105 ms, fast avg 635 ms, multi=off
+2026-10-13 21:48:44.456 INFO DriveService: rounds: avg 1132 ms, fast avg 637 ms, multi=off
+2026-10-13 21:49:17.549 INFO DriveService: Trip saved: 32.013228611111195 km
+2026-10-13 21:49:17.848 INFO Sync: Skipping large track file 1791905780460.csv (953220 bytes > 900 KB)
+2026-10-13 21:49:20.126 INFO Sync: Synced trip 1791905780460

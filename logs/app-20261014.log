@@ -171,3 +171,13 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 2026-10-14 21:00:44.837 INFO DriveService: rounds: avg 1178 ms, fast avg 678 ms, multi=off
 2026-10-14 21:00:58.512 INFO DriveService: Trip saved: 14.368840833333334 km
 2026-10-14 21:01:04.072 INFO Sync: Synced trip 1791990127266
+2026-10-14 21:03:13.917 INFO DriveService: rounds: avg 1490 ms, fast avg 898 ms, multi=off
+2026-10-14 21:06:44.049 INFO DriveService: Connected to OBD, timing suffix
+2026-10-14 21:06:44.058 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-14 21:06:48.393 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff0c970c930c830c4a0000000000000000ffffff3a1220ffffff1627825cff14ff0015ffffffffffffffffff0100ff6100fc00d5ff05553449ffffff0a4007b5344902cbffffffffffffb49304e4ffffffff3157313730303035ffffffffff00ff0540dd0210030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8590.0
+2026-10-14 21:06:54.190 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-14 21:09:04.601 INFO DriveService: rounds: avg 1362 ms, fast avg 767 ms, multi=off
+2026-10-14 21:11:07.185 INFO DriveService: rounds: avg 1225 ms, fast avg 690 ms, multi=off
+2026-10-14 21:13:08.853 INFO DriveService: rounds: avg 1216 ms, fast avg 692 ms, multi=off
+2026-10-14 21:14:20.352 INFO DriveService: Trip saved: 0.3757325 km
+2026-10-14 21:14:28.996 INFO Sync: Synced trip 1791992200889

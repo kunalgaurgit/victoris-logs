@@ -29,3 +29,15 @@
 2026-10-14 09:09:04.600 INFO DriveService: Trip saved: 21.497219166666685 km
 2026-10-14 09:09:04.886 INFO Sync: Skipping large track file 1791946313379.csv (1059393 bytes > 900 KB)
 2026-10-14 09:09:07.032 INFO Sync: Synced trip 1791946313379
+2026-10-14 09:09:16.561 ERROR Sync: Failed to upload settings
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 2f3765436af4a6e595183331cb3917fc18eb4278 but expected aee3703a52474e8b402c9e8f8ef5a4404c6affe0","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-hUnOzRk(GitHubUploader.kt:66)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:191)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

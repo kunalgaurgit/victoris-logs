@@ -155,3 +155,19 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 2026-10-14 20:32:16.497 INFO DriveService: Multi-PID disabled for this session after 3 failures
 2026-10-14 20:32:16.626 INFO Sync: Synced trip 1791988647102
 2026-10-14 20:32:25.840 INFO Sync: Synced trip 1791988647102
+2026-10-14 20:34:15.189 INFO DriveService: rounds: avg 1239 ms, fast avg 697 ms, multi=off
+2026-10-14 20:36:29.705 INFO DriveService: rounds: avg 1345 ms, fast avg 762 ms, multi=off
+2026-10-14 20:38:39.546 INFO DriveService: rounds: avg 1298 ms, fast avg 739 ms, multi=off
+2026-10-14 20:40:44.307 INFO DriveService: rounds: avg 1247 ms, fast avg 698 ms, multi=off
+2026-10-14 20:42:43.399 INFO DriveService: rounds: avg 1190 ms, fast avg 679 ms, multi=off
+2026-10-14 20:44:45.500 INFO DriveService: rounds: avg 1220 ms, fast avg 690 ms, multi=off
+2026-10-14 20:46:47.563 INFO DriveService: rounds: avg 1220 ms, fast avg 690 ms, multi=off
+2026-10-14 20:48:47.131 INFO DriveService: rounds: avg 1195 ms, fast avg 680 ms, multi=off
+2026-10-14 20:50:45.118 INFO DriveService: rounds: avg 1179 ms, fast avg 675 ms, multi=off
+2026-10-14 20:52:45.516 INFO DriveService: rounds: avg 1203 ms, fast avg 680 ms, multi=off
+2026-10-14 20:54:48.041 INFO DriveService: rounds: avg 1225 ms, fast avg 694 ms, multi=off
+2026-10-14 20:56:45.334 INFO DriveService: rounds: avg 1172 ms, fast avg 666 ms, multi=off
+2026-10-14 20:58:46.971 INFO DriveService: rounds: avg 1216 ms, fast avg 683 ms, multi=off
+2026-10-14 21:00:44.837 INFO DriveService: rounds: avg 1178 ms, fast avg 678 ms, multi=off
+2026-10-14 21:00:58.512 INFO DriveService: Trip saved: 14.368840833333334 km
+2026-10-14 21:01:04.072 INFO Sync: Synced trip 1791990127266

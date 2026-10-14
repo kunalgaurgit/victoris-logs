@@ -268,3 +268,4 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"I
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
 2026-10-14 21:54:33.129 INFO Sync: Synced trip 1791992660285
+2026-10-14 21:55:48.020 INFO DriveService: rounds: avg 1096 ms, fast avg 702 ms, multi=off

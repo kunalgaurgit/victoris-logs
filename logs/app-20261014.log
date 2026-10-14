@@ -195,3 +195,76 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-14 21:15:20.095 ERROR DriveService: Loop error, reconnecting
+java.io.IOException: Broken pipe
+	at android.net.LocalSocketImpl.writeba_native(Native Method)
+	at android.net.LocalSocketImpl.-$$Nest$mwriteba_native(LocalSocketImpl.java:0)
+	at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+	at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:1142)
+	at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:77)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at com.victoris.ledger.obd.SppTransport$write$2.invokeSuspend(SppTransport.kt:69)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-8a390ed522159704f52eccacdada5c12228ea6e9:1)
+	at com.victoris.ledger.obd.SppTransport.write(SppTransport.kt:68)
+	at com.victoris.ledger.obd.Elm327.command(Elm327.kt:49)
+	at com.victoris.ledger.obd.Elm327.readPid(Elm327.kt:186)
+	at com.victoris.ledger.obd.Elm327.readPid$default(Elm327.kt:185)
+	at com.victoris.ledger.obd.DriveService.safeReadPid(DriveService.kt:1121)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop$rpmTick(DriveService.kt:514)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop$rpmTick$default(DriveService.kt:513)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:612)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:113)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-14 21:16:27.264 INFO DriveService: Reconnected to OBD in loop
+2026-10-14 21:16:52.534 INFO DriveService: rounds: avg 2236 ms, fast avg 984 ms, multi=off
+2026-10-14 21:19:15.243 INFO DriveService: rounds: avg 1426 ms, fast avg 796 ms, multi=off
+2026-10-14 21:21:12.086 INFO DriveService: rounds: avg 1168 ms, fast avg 668 ms, multi=off
+2026-10-14 21:23:03.020 INFO DriveService: rounds: avg 1109 ms, fast avg 625 ms, multi=off
+2026-10-14 21:24:53.092 INFO DriveService: rounds: avg 1100 ms, fast avg 627 ms, multi=off
+2026-10-14 21:26:46.168 INFO DriveService: rounds: avg 1130 ms, fast avg 647 ms, multi=off
+2026-10-14 21:28:37.794 INFO DriveService: rounds: avg 1116 ms, fast avg 628 ms, multi=off
+2026-10-14 21:30:36.792 INFO DriveService: rounds: avg 1189 ms, fast avg 667 ms, multi=off
+2026-10-14 21:32:38.656 INFO DriveService: rounds: avg 1218 ms, fast avg 680 ms, multi=off
+2026-10-14 21:34:29.144 INFO DriveService: rounds: avg 1104 ms, fast avg 625 ms, multi=off
+2026-10-14 21:36:19.976 INFO DriveService: rounds: avg 1108 ms, fast avg 626 ms, multi=off
+2026-10-14 21:38:18.922 INFO DriveService: rounds: avg 1189 ms, fast avg 673 ms, multi=off
+2026-10-14 21:40:19.336 INFO DriveService: rounds: avg 1203 ms, fast avg 676 ms, multi=off
+2026-10-14 21:42:17.535 INFO DriveService: rounds: avg 1181 ms, fast avg 675 ms, multi=off
+2026-10-14 21:44:11.562 INFO DriveService: rounds: avg 1140 ms, fast avg 654 ms, multi=off
+2026-10-14 21:46:03.187 INFO DriveService: rounds: avg 1116 ms, fast avg 629 ms, multi=off
+2026-10-14 21:47:55.558 INFO DriveService: rounds: avg 1123 ms, fast avg 635 ms, multi=off
+2026-10-14 21:49:46.696 INFO DriveService: rounds: avg 1111 ms, fast avg 638 ms, multi=off
+2026-10-14 21:52:02.338 INFO DriveService: rounds: avg 1356 ms, fast avg 746 ms, multi=off
+2026-10-14 21:53:54.596 INFO DriveService: Trip saved: 7.9027336111111 km
+2026-10-14 21:53:58.358 INFO DriveService: rounds: avg 1160 ms, fast avg 677 ms, multi=off
+2026-10-14 21:54:23.710 INFO Sync: Synced trip 1791992660285
+2026-10-14 21:54:27.428 ERROR Sync: Failed to upload CSV trips/VICTORIS/2026-10-14_1791992660285.csv
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:70)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs$default(GitHubUploader.kt:15)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:122)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-14 21:54:33.129 INFO Sync: Synced trip 1791992660285

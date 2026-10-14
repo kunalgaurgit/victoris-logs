@@ -114,3 +114,37 @@ java.io.IOException: Broken pipe
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-14 16:57:42.371 ERROR Sync: Failed to upload log app-20261013.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at 5da1b185f3c20b9bdb892a331e4aa8ee814c05fd but expected 56ebeef3f55a37a628684033fc020baee227bd4c","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:65)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:64)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs$default(GitHubUploader.kt:15)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:167)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-14 17:52:00.767 INFO Update: APK 61 downloaded: 14.3 MB in 2.8 s (5.10 MB/s)
+2026-10-14 17:52:06.991 INFO Update: APK 61 downloaded: 14.3 MB in 2.0 s (7.13 MB/s)
+2026-10-14 20:00:05.326 INFO Update: APK 63 downloaded: 14.3 MB in 3.4 s (4.23 MB/s)
+2026-10-14 20:07:33.734 INFO DriveService: Connected to OBD, timing suffix
+2026-10-14 20:07:33.751 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-14 20:07:39.620 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff165a16531623162a165a16531623162affffff3e1647ffffff002b5b48ff18ff0014ffffffffffffffffff0002ff4800e800bdff07a73677ffffff097a0bea36770329ffffffffffffb49304e3ffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8566.0
+2026-10-14 20:07:45.953 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-14 20:09:51.064 INFO DriveService: rounds: avg 1314 ms, fast avg 746 ms, multi=off
+2026-10-14 20:11:45.102 INFO DriveService: rounds: avg 1140 ms, fast avg 647 ms, multi=off
+2026-10-14 20:13:34.462 INFO DriveService: rounds: avg 1093 ms, fast avg 625 ms, multi=off
+2026-10-14 20:15:26.765 INFO DriveService: rounds: avg 1122 ms, fast avg 630 ms, multi=off
+2026-10-14 20:17:20.712 INFO DriveService: rounds: avg 1139 ms, fast avg 648 ms, multi=off
+2026-10-14 20:19:10.713 INFO DriveService: rounds: avg 1099 ms, fast avg 628 ms, multi=off
+2026-10-14 20:21:18.844 INFO DriveService: rounds: avg 1281 ms, fast avg 720 ms, multi=off
+2026-10-14 20:22:49.171 INFO DriveService: CNG run-out detected (VICTORIS), tank anchor reset to empty
+2026-10-14 20:23:28.124 INFO DriveService: rounds: avg 1292 ms, fast avg 720 ms, multi=off
+2026-10-14 20:25:18.673 INFO DriveService: rounds: avg 1105 ms, fast avg 630 ms, multi=off
+2026-10-14 20:27:21.976 INFO DriveService: rounds: avg 1232 ms, fast avg 681 ms, multi=off
+2026-10-14 20:29:24.135 INFO DriveService: rounds: avg 1221 ms, fast avg 689 ms, multi=off
+2026-10-14 20:31:23.727 INFO DriveService: rounds: avg 1195 ms, fast avg 680 ms, multi=off

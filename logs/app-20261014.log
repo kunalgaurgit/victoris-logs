@@ -42,3 +42,14 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
 2026-10-14 09:09:36.170 INFO DriveService: rounds: avg 1284 ms, fast avg 689 ms, multi=off
+2026-10-14 09:11:59.746 INFO DriveService: rounds: avg 1435 ms, fast avg 897 ms, multi=off
+2026-10-14 09:23:28.246 INFO DriveService: Connected to OBD, timing suffix
+2026-10-14 09:23:28.249 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-14 09:23:32.125 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff1137116d1110110d1137116d1110110dffffff2b0abeffffff14228155ff08ff0014ffffffffffffffffff0002ff6000d800b6ff08df3573ffffff08e907e935730357ffffffffffffb49304e2ffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8562.0
+2026-10-14 09:23:37.848 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-14 09:25:39.728 INFO DriveService: rounds: avg 1275 ms, fast avg 726 ms, multi=off
+2026-10-14 09:27:39.823 INFO DriveService: rounds: avg 1200 ms, fast avg 683 ms, multi=off
+2026-10-14 09:29:34.883 INFO DriveService: rounds: avg 1150 ms, fast avg 659 ms, multi=off
+2026-10-14 09:31:28.276 INFO DriveService: rounds: avg 1133 ms, fast avg 639 ms, multi=off
+2026-10-14 09:32:52.157 INFO DriveService: Trip saved: 3.875116388888891 km
+2026-10-14 09:32:57.045 INFO Sync: Synced trip 1791950005006

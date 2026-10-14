@@ -269,3 +269,12 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"I
 
 2026-10-14 21:54:33.129 INFO Sync: Synced trip 1791992660285
 2026-10-14 21:55:48.020 INFO DriveService: rounds: avg 1096 ms, fast avg 702 ms, multi=off
+2026-10-14 21:57:19.602 INFO DriveService: Trip saved: 0.15321805555555554 km
+2026-10-14 21:57:37.667 ERROR DriveService: Connection failed, reconnecting
+kotlinx.coroutines.JobCancellationException: StandaloneCoroutine was cancelled; job=StandaloneCoroutine{Cancelling}@64f00e5
+
+2026-10-14 21:58:11.910 INFO DriveService: Connected to OBD, timing suffix
+2026-10-14 21:58:11.913 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-14 21:58:15.839 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff1eb7210d24f023131eb7210d24f02313ffffff5c10d8ffffff063d8165ff06ff0015ffffffffffffffffff0002ff6d010600caff45aa3489ffffff0a99061e34890cd9ffffffffffffb49304e6ffffffff3157313730303035ffffffffff00ff058fff0432030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8598.0
+2026-10-14 21:58:21.434 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-14 21:59:19.336 INFO Sync: Synced trip 1791995034547

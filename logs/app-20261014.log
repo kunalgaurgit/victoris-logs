@@ -1,0 +1,31 @@
+2026-10-14 08:21:54.866 INFO DriveService: Connected to OBD, timing suffix
+2026-10-14 08:21:54.886 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-14 08:21:57.465 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff14c71553160315d714c71553160315d7ffffff370a7fffffff04297348ff08ff0014ffffffffffffffffff0002ff4900e600bdff0f963420ffffff09680bc234200466ffffffffffffb49304e1ffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8538.0
+2026-10-14 08:22:02.762 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-14 08:23:53.636 INFO DriveService: rounds: avg 1161 ms, fast avg 662 ms, multi=off
+2026-10-14 08:25:46.002 INFO DriveService: rounds: avg 1123 ms, fast avg 637 ms, multi=off
+2026-10-14 08:27:40.595 INFO DriveService: rounds: avg 1145 ms, fast avg 648 ms, multi=off
+2026-10-14 08:29:34.999 INFO DriveService: rounds: avg 1143 ms, fast avg 643 ms, multi=off
+2026-10-14 08:31:26.697 INFO DriveService: rounds: avg 1116 ms, fast avg 639 ms, multi=off
+2026-10-14 08:33:22.696 INFO DriveService: rounds: avg 1159 ms, fast avg 661 ms, multi=off
+2026-10-14 08:35:16.551 INFO DriveService: rounds: avg 1138 ms, fast avg 640 ms, multi=off
+2026-10-14 08:37:08.369 INFO DriveService: rounds: avg 1118 ms, fast avg 640 ms, multi=off
+2026-10-14 08:39:02.320 INFO DriveService: rounds: avg 1139 ms, fast avg 646 ms, multi=off
+2026-10-14 08:40:55.986 INFO DriveService: rounds: avg 1136 ms, fast avg 638 ms, multi=off
+2026-10-14 08:42:50.806 INFO DriveService: rounds: avg 1148 ms, fast avg 650 ms, multi=off
+2026-10-14 08:44:42.062 INFO DriveService: rounds: avg 1112 ms, fast avg 639 ms, multi=off
+2026-10-14 08:46:34.467 INFO DriveService: rounds: avg 1123 ms, fast avg 633 ms, multi=off
+2026-10-14 08:48:29.580 INFO DriveService: rounds: avg 1150 ms, fast avg 650 ms, multi=off
+2026-10-14 08:50:21.242 INFO DriveService: rounds: avg 1116 ms, fast avg 640 ms, multi=off
+2026-10-14 08:52:14.674 INFO DriveService: rounds: avg 1134 ms, fast avg 641 ms, multi=off
+2026-10-14 08:54:09.781 INFO DriveService: rounds: avg 1150 ms, fast avg 653 ms, multi=off
+2026-10-14 08:56:02.351 INFO DriveService: rounds: avg 1125 ms, fast avg 641 ms, multi=off
+2026-10-14 08:57:55.170 INFO DriveService: rounds: avg 1128 ms, fast avg 639 ms, multi=off
+2026-10-14 08:59:48.317 INFO DriveService: rounds: avg 1131 ms, fast avg 642 ms, multi=off
+2026-10-14 09:01:43.452 INFO DriveService: rounds: avg 1151 ms, fast avg 654 ms, multi=off
+2026-10-14 09:03:37.570 INFO DriveService: rounds: avg 1141 ms, fast avg 645 ms, multi=off
+2026-10-14 09:05:29.766 INFO DriveService: rounds: avg 1121 ms, fast avg 642 ms, multi=off
+2026-10-14 09:07:27.743 INFO DriveService: rounds: avg 1179 ms, fast avg 668 ms, multi=off
+2026-10-14 09:09:04.600 INFO DriveService: Trip saved: 21.497219166666685 km
+2026-10-14 09:09:04.886 INFO Sync: Skipping large track file 1791946313379.csv (1059393 bytes > 900 KB)
+2026-10-14 09:09:07.032 INFO Sync: Synced trip 1791946313379

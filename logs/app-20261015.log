@@ -148,3 +148,4 @@ java.io.IOException: Broken pipe
 2026-10-15 20:59:46.799 INFO DriveService: Trip saved: 23.31947250000002 km
 2026-10-15 20:59:57.391 INFO Sync: Synced trip 1792074870457
 2026-10-15 21:00:02.994 INFO Sync: Synced trip 1792074870457
+2026-10-15 21:00:06.762 INFO DriveService: rounds: avg 1401 ms, fast avg 751 ms, multi=off

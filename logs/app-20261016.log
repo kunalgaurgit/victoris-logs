@@ -63,3 +63,4 @@
 2026-10-16 08:40:28.914 INFO Nav: Maps step: - | Driving with Google Maps | STRAIGHT | -
 2026-10-16 08:41:06.438 INFO DriveService: Trip saved: 1.451267777777778 km
 2026-10-16 08:41:10.750 INFO Sync: Synced trip 1792119971500
+2026-10-16 08:42:53.573 INFO DriveService: rounds: avg 1620 ms, fast avg 923 ms, multi=off

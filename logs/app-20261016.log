@@ -1,0 +1,42 @@
+2026-10-16 08:02:37.963 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:02:37.968 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:02:41.874 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff208a21271fca213d208a21271fca213dffffff680cb2ffffff01435c41ff12ff0015ffffffffffffffffff0002ff41010c00c9ff2b2d35a5ffffff0ad20d2435a508b2ffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8655.0
+2026-10-16 08:02:48.383 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:03:44.233 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:03:44.235 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:03:46.843 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff1b901b931b871bc31b901b931b871bc3ffffff550b5affffff09386242ff13ff0015ffffffffffffffffff0002ff4200fd00c7ff2acf357cffffff0a4b0d06357c08a5ffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8655.0
+2026-10-16 08:03:52.037 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:04:46.916 INFO Update: APK 80 downloaded: 14.4 MB in 3.5 s (4.07 MB/s)
+2026-10-16 08:05:23.584 INFO DriveService: Connected to OBD, timing ATAT1 ATST32
+2026-10-16 08:05:23.590 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:05:42.156 INFO ExtLevels: probe: 7E0 22F42F=ERR: Timeout waiting for respo; 7E0 22002F=ERR: Timeout waiting for respo; 7C0 221022=ERR: Timeout waiting for respo; 720 2261B1=ERR: Timeout waiting for respo; 700 22113C=ERR: Timeout waiting for respo; 700 2211C4=ERR: Timeout waiting for respo; 700 221F6D=ERR: Timeout waiting for respo; 700 2210CD=ERR: Timeout waiting for respo; 7E0 22F4A6=ERR: Timeout waiting for respo; 720 22DD01=ERR: Timeout waiting for respo; 7E6 2100=ERR: Timeout waiting for respo; PID31=none
+2026-10-16 08:05:56.651 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:05:56.651 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:05:59.527 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff2b272ab72b102b2d2b272ab72b102b2dffffff8b103cffffff0d4e6d42ff23ff0015ffffffffffffffffff0002ff44011100c2ff2a713477ffffff0b020caa34770896ffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8661.0
+2026-10-16 08:06:05.032 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:08:02.521 INFO DriveService: rounds: avg 1229 ms, fast avg 692 ms, multi=off
+2026-10-16 08:09:51.951 INFO DriveService: rounds: avg 1094 ms, fast avg 628 ms, multi=off
+2026-10-16 08:11:41.739 INFO DriveService: rounds: avg 1097 ms, fast avg 624 ms, multi=off
+2026-10-16 08:13:32.865 INFO DriveService: rounds: avg 1111 ms, fast avg 632 ms, multi=off
+2026-10-16 08:15:35.686 INFO DriveService: rounds: avg 1228 ms, fast avg 705 ms, multi=off
+2026-10-16 08:17:41.670 INFO DriveService: rounds: avg 1259 ms, fast avg 715 ms, multi=off
+2026-10-16 08:19:36.555 INFO DriveService: rounds: avg 1148 ms, fast avg 649 ms, multi=off
+2026-10-16 08:21:27.396 INFO DriveService: rounds: avg 1108 ms, fast avg 629 ms, multi=off
+2026-10-16 08:21:37.604 INFO Nav: Maps step: - | Starting navigation… | STRAIGHT | -
+2026-10-16 08:21:37.987 INFO Nav: Maps step: - | Driving with Google Maps | STRAIGHT | -
+2026-10-16 08:21:40.007 INFO Nav: Maps step: - | Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:21:46.735 INFO Nav: Maps step: - | Head southeast on Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:21:46.786 INFO Nav: Maps step: 9.8 km | Take the exit | STRAIGHT | -
+2026-10-16 08:22:08.368 INFO Nav: Maps step: - | Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:23:17.825 INFO DriveService: rounds: avg 1104 ms, fast avg 633 ms, multi=off
+2026-10-16 08:24:53.731 INFO Nav: Maps step: - | Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:25:12.007 INFO DriveService: rounds: avg 1141 ms, fast avg 643 ms, multi=off
+2026-10-16 08:26:59.122 INFO Nav: Maps step: - | Head southeast on Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:26:59.142 INFO Nav: Maps step: 6.3 km | Take the exit | STRAIGHT | -
+2026-10-16 08:27:03.398 INFO DriveService: rounds: avg 1113 ms, fast avg 632 ms, multi=off
+2026-10-16 08:27:14.055 INFO Nav: Maps step: - | Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:29:10.802 INFO DriveService: rounds: avg 1273 ms, fast avg 727 ms, multi=off
+2026-10-16 08:29:53.075 INFO DriveService: Trip saved: 14.856122222222231 km
+2026-10-16 08:30:08.098 INFO Nav: Maps step: - | Head southeast on Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:30:08.344 INFO Nav: Maps step: 3.7 km | Take the exit | STRAIGHT | -
+2026-10-16 08:30:08.449 INFO Sync: Synced trip 1792118153729

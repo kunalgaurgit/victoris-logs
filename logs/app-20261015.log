@@ -155,3 +155,26 @@ java.io.IOException: Broken pipe
 2026-10-15 21:07:40.134 INFO DriveService: rounds: avg 1094 ms, fast avg 630 ms, multi=off
 2026-10-15 21:08:42.865 INFO DriveService: Trip saved: 0.4266263888888889 km
 2026-10-15 21:08:48.612 INFO Sync: Synced trip 1792078186534
+2026-10-15 21:09:54.749 INFO DriveService: rounds: avg 1346 ms, fast avg 767 ms, multi=off
+2026-10-15 21:12:15.384 INFO DriveService: rounds: avg 1406 ms, fast avg 908 ms, multi=off
+2026-10-15 21:57:54.635 INFO Update: APK 77 downloaded: 14.4 MB in 4.5 s (3.19 MB/s)
+2026-10-15 22:04:59.674 INFO Update: APK 78 downloaded: 14.4 MB in 2.5 s (5.84 MB/s)
+2026-10-15 22:24:13.197 INFO Update: APK 79 downloaded: 14.4 MB in 2.2 s (6.48 MB/s)
+2026-10-15 22:26:08.578 ERROR DriveService: Connection failed, reconnecting
+com.victoris.ledger.obd.ObdTimeoutException: BLE connection failed or disconnected
+	at com.victoris.ledger.obd.BleTransport$gattCallback$1.onConnectionStateChange(BleTransport.kt:29)
+	at android.bluetooth.BluetoothGatt$1$4.run(BluetoothGatt.java:438)
+	at android.bluetooth.BluetoothGatt.runOrQueueCallback(BluetoothGatt.java:1163)
+	at android.bluetooth.BluetoothGatt.-$$Nest$mrunOrQueueCallback(BluetoothGatt.java:0)
+	at android.bluetooth.BluetoothGatt$1.onClientConnectionState(BluetoothGatt.java:432)
+	at android.bluetooth.IBluetoothGattCallback$Stub.onTransact(IBluetoothGattCallback.java:213)
+	at android.os.Binder.execTransactInternal(Binder.java:1433)
+	at android.os.Binder.execTransact(Binder.java:1372)
+
+2026-10-15 22:27:42.536 INFO DriveService: Reconnected to OBD
+2026-10-15 22:27:42.537 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-15 22:27:45.896 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff0a330a0a0a1d09fa0000000000000000ffffff250c73ffffff001c605aff0bff0015ffffffffffffffffff0000ff5800f400d8ff2b2d2e90ffffff09f1093e2e9008b6ffffffffffffa69304ecffffffff3157313730303035ffffffffff00ff0540ff0010030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8655.0
+2026-10-15 22:28:51.556 INFO DriveService: rounds: avg 656 ms, fast avg 295 ms, multi=on
+2026-10-15 22:29:26.178 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-15 22:30:41.256 INFO DriveService: rounds: avg 1096 ms, fast avg 633 ms, multi=off
+2026-10-15 22:33:02.303 INFO DriveService: rounds: avg 1410 ms, fast avg 897 ms, multi=off

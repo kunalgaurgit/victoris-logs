@@ -40,3 +40,26 @@
 2026-10-16 08:30:08.098 INFO Nav: Maps step: - | Head southeast on Noida-Greater Noida Expy | STRAIGHT | -
 2026-10-16 08:30:08.344 INFO Nav: Maps step: 3.7 km | Take the exit | STRAIGHT | -
 2026-10-16 08:30:08.449 INFO Sync: Synced trip 1792118153729
+2026-10-16 08:31:44.763 INFO DriveService: Connected to OBD, timing ATAT1 ATST32
+2026-10-16 08:31:44.800 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:32:04.186 INFO ExtLevels: probe: 7E0 22F42F=ERR: Timeout waiting for respo; 7E0 22002F=ERR: Timeout waiting for respo; 7C0 221022=ERR: Timeout waiting for respo; 720 2261B1=ERR: Timeout waiting for respo; 700 22113C=ERR: Timeout waiting for respo; 700 2211C4=ERR: Timeout waiting for respo; 700 221F6D=ERR: Timeout waiting for respo; 700 2210CD=ERR: Timeout waiting for respo; 7E0 22F4A6=ERR: Timeout waiting for respo; 720 22DD01=ERR: Timeout waiting for respo; 7E6 2100=ERR: Timeout waiting for respo; PID31=none
+2026-10-16 08:32:22.597 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:34:23.983 INFO Nav: Maps step: 1.0 km | Turn left toward शहीद मंगल पांडे मार्ग | LEFT | -
+2026-10-16 08:36:13.788 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:36:13.837 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:36:16.745 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff15ba15d315ca15f315ba15d315ca15f3ffffff380c63ffffff0e2a8147ff0fff0015ffffffffffffffffff0002ff5800e500bcff2689358effffff0963092c358e07fcffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8676.0
+2026-10-16 08:36:17.755 INFO Nav: Maps step: - | Turn right onto शहीद मंगल पांडे मार्ग | RIGHT | -
+2026-10-16 08:36:22.069 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:36:30.743 INFO Nav: Maps step: 850 m | Turn left | LEFT | -
+2026-10-16 08:38:12.131 INFO DriveService: rounds: avg 1153 ms, fast avg 659 ms, multi=off
+2026-10-16 08:40:02.732 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 08:40:03.202 INFO Nav: Maps step: - | Head southeast | STRAIGHT | -
+2026-10-16 08:40:03.763 INFO Nav: Maps step: - | Turn right | RIGHT | -
+2026-10-16 08:40:07.691 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 08:40:08.143 INFO Nav: Maps step: - | Head southeast | STRAIGHT | -
+2026-10-16 08:40:08.784 INFO Nav: Maps step: 160 m | Turn left | LEFT | -
+2026-10-16 08:40:11.494 INFO DriveService: rounds: avg 1193 ms, fast avg 678 ms, multi=off
+2026-10-16 08:40:28.878 INFO Nav: Maps step: - | Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:40:28.914 INFO Nav: Maps step: - | Driving with Google Maps | STRAIGHT | -
+2026-10-16 08:41:06.438 INFO DriveService: Trip saved: 1.451267777777778 km
+2026-10-16 08:41:10.750 INFO Sync: Synced trip 1792119971500

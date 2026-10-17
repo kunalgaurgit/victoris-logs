@@ -197,3 +197,16 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 404: {"message":"N
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
 2026-10-17 21:24:41.329 INFO Sync: Synced trip 1792233332784
+2026-10-17 21:24:43.749 ERROR Sync: Failed to upload log app-20261017.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:70)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs$default(GitHubUploader.kt:15)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:167)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

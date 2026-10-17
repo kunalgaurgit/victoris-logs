@@ -395,3 +395,6 @@ java.net.UnknownHostException: Unable to resolve host "api.github.com": No addre
 2026-10-17 22:56:39.577 INFO DriveService: rounds: avg 1140 ms, fast avg 641 ms, multi=off
 2026-10-17 22:58:21.856 INFO DriveService: Trip saved: 21.000034166666655 km
 2026-10-17 22:58:26.787 INFO Sync: Synced trip 1792255875144
+2026-10-17 22:58:44.231 INFO DriveService: rounds: avg 1246 ms, fast avg 669 ms, multi=off
+2026-10-17 23:00:54.298 INFO DriveService: rounds: avg 1300 ms, fast avg 833 ms, multi=off
+2026-10-17 23:02:41.225 INFO DriveService: rounds: avg 1069 ms, fast avg 685 ms, multi=off

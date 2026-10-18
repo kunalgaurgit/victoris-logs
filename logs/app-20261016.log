@@ -1,0 +1,310 @@
+2026-10-16 08:02:37.963 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:02:37.968 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:02:41.874 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff208a21271fca213d208a21271fca213dffffff680cb2ffffff01435c41ff12ff0015ffffffffffffffffff0002ff41010c00c9ff2b2d35a5ffffff0ad20d2435a508b2ffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8655.0
+2026-10-16 08:02:48.383 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:03:44.233 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:03:44.235 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:03:46.843 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff1b901b931b871bc31b901b931b871bc3ffffff550b5affffff09386242ff13ff0015ffffffffffffffffff0002ff4200fd00c7ff2acf357cffffff0a4b0d06357c08a5ffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8655.0
+2026-10-16 08:03:52.037 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:04:46.916 INFO Update: APK 80 downloaded: 14.4 MB in 3.5 s (4.07 MB/s)
+2026-10-16 08:05:23.584 INFO DriveService: Connected to OBD, timing ATAT1 ATST32
+2026-10-16 08:05:23.590 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:05:42.156 INFO ExtLevels: probe: 7E0 22F42F=ERR: Timeout waiting for respo; 7E0 22002F=ERR: Timeout waiting for respo; 7C0 221022=ERR: Timeout waiting for respo; 720 2261B1=ERR: Timeout waiting for respo; 700 22113C=ERR: Timeout waiting for respo; 700 2211C4=ERR: Timeout waiting for respo; 700 221F6D=ERR: Timeout waiting for respo; 700 2210CD=ERR: Timeout waiting for respo; 7E0 22F4A6=ERR: Timeout waiting for respo; 720 22DD01=ERR: Timeout waiting for respo; 7E6 2100=ERR: Timeout waiting for respo; PID31=none
+2026-10-16 08:05:56.651 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:05:56.651 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:05:59.527 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff2b272ab72b102b2d2b272ab72b102b2dffffff8b103cffffff0d4e6d42ff23ff0015ffffffffffffffffff0002ff44011100c2ff2a713477ffffff0b020caa34770896ffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8661.0
+2026-10-16 08:06:05.032 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:08:02.521 INFO DriveService: rounds: avg 1229 ms, fast avg 692 ms, multi=off
+2026-10-16 08:09:51.951 INFO DriveService: rounds: avg 1094 ms, fast avg 628 ms, multi=off
+2026-10-16 08:11:41.739 INFO DriveService: rounds: avg 1097 ms, fast avg 624 ms, multi=off
+2026-10-16 08:13:32.865 INFO DriveService: rounds: avg 1111 ms, fast avg 632 ms, multi=off
+2026-10-16 08:15:35.686 INFO DriveService: rounds: avg 1228 ms, fast avg 705 ms, multi=off
+2026-10-16 08:17:41.670 INFO DriveService: rounds: avg 1259 ms, fast avg 715 ms, multi=off
+2026-10-16 08:19:36.555 INFO DriveService: rounds: avg 1148 ms, fast avg 649 ms, multi=off
+2026-10-16 08:21:27.396 INFO DriveService: rounds: avg 1108 ms, fast avg 629 ms, multi=off
+2026-10-16 08:21:37.604 INFO Nav: Maps step: - | Starting navigation… | STRAIGHT | -
+2026-10-16 08:21:37.987 INFO Nav: Maps step: - | Driving with Google Maps | STRAIGHT | -
+2026-10-16 08:21:40.007 INFO Nav: Maps step: - | Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:21:46.735 INFO Nav: Maps step: - | Head southeast on Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:21:46.786 INFO Nav: Maps step: 9.8 km | Take the exit | STRAIGHT | -
+2026-10-16 08:22:08.368 INFO Nav: Maps step: - | Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:23:17.825 INFO DriveService: rounds: avg 1104 ms, fast avg 633 ms, multi=off
+2026-10-16 08:24:53.731 INFO Nav: Maps step: - | Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:25:12.007 INFO DriveService: rounds: avg 1141 ms, fast avg 643 ms, multi=off
+2026-10-16 08:26:59.122 INFO Nav: Maps step: - | Head southeast on Dadri Main Rd | STRAIGHT | -
+2026-10-16 08:26:59.142 INFO Nav: Maps step: 6.3 km | Take the exit | STRAIGHT | -
+2026-10-16 08:27:03.398 INFO DriveService: rounds: avg 1113 ms, fast avg 632 ms, multi=off
+2026-10-16 08:27:14.055 INFO Nav: Maps step: - | Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:29:10.802 INFO DriveService: rounds: avg 1273 ms, fast avg 727 ms, multi=off
+2026-10-16 08:29:53.075 INFO DriveService: Trip saved: 14.856122222222231 km
+2026-10-16 08:30:08.098 INFO Nav: Maps step: - | Head southeast on Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:30:08.344 INFO Nav: Maps step: 3.7 km | Take the exit | STRAIGHT | -
+2026-10-16 08:30:08.449 INFO Sync: Synced trip 1792118153729
+2026-10-16 08:31:44.763 INFO DriveService: Connected to OBD, timing ATAT1 ATST32
+2026-10-16 08:31:44.800 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:32:04.186 INFO ExtLevels: probe: 7E0 22F42F=ERR: Timeout waiting for respo; 7E0 22002F=ERR: Timeout waiting for respo; 7C0 221022=ERR: Timeout waiting for respo; 720 2261B1=ERR: Timeout waiting for respo; 700 22113C=ERR: Timeout waiting for respo; 700 2211C4=ERR: Timeout waiting for respo; 700 221F6D=ERR: Timeout waiting for respo; 700 2210CD=ERR: Timeout waiting for respo; 7E0 22F4A6=ERR: Timeout waiting for respo; 720 22DD01=ERR: Timeout waiting for respo; 7E6 2100=ERR: Timeout waiting for respo; PID31=none
+2026-10-16 08:32:22.597 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:34:23.983 INFO Nav: Maps step: 1.0 km | Turn left toward शहीद मंगल पांडे मार्ग | LEFT | -
+2026-10-16 08:36:13.788 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 08:36:13.837 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 08:36:16.745 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff15ba15d315ca15f315ba15d315ca15f3ffffff380c63ffffff0e2a8147ff0fff0015ffffffffffffffffff0002ff5800e500bcff2689358effffff0963092c358e07fcffffffffffffb49304edffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8676.0
+2026-10-16 08:36:17.755 INFO Nav: Maps step: - | Turn right onto शहीद मंगल पांडे मार्ग | RIGHT | -
+2026-10-16 08:36:22.069 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 08:36:30.743 INFO Nav: Maps step: 850 m | Turn left | LEFT | -
+2026-10-16 08:38:12.131 INFO DriveService: rounds: avg 1153 ms, fast avg 659 ms, multi=off
+2026-10-16 08:40:02.732 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 08:40:03.202 INFO Nav: Maps step: - | Head southeast | STRAIGHT | -
+2026-10-16 08:40:03.763 INFO Nav: Maps step: - | Turn right | RIGHT | -
+2026-10-16 08:40:07.691 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 08:40:08.143 INFO Nav: Maps step: - | Head southeast | STRAIGHT | -
+2026-10-16 08:40:08.784 INFO Nav: Maps step: 160 m | Turn left | LEFT | -
+2026-10-16 08:40:11.494 INFO DriveService: rounds: avg 1193 ms, fast avg 678 ms, multi=off
+2026-10-16 08:40:28.878 INFO Nav: Maps step: - | Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 08:40:28.914 INFO Nav: Maps step: - | Driving with Google Maps | STRAIGHT | -
+2026-10-16 08:41:06.438 INFO DriveService: Trip saved: 1.451267777777778 km
+2026-10-16 08:41:10.750 INFO Sync: Synced trip 1792119971500
+2026-10-16 08:42:53.573 INFO DriveService: rounds: avg 1620 ms, fast avg 923 ms, multi=off
+2026-10-16 08:44:44.922 INFO DriveService: rounds: avg 1113 ms, fast avg 708 ms, multi=off
+2026-10-16 09:06:50.969 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 09:06:50.971 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 09:06:54.635 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff17131737171d174017131737171d1740ffffff3e0cb2ffffff002e7259ff11ff0015ffffffffffffffffff0002ff5800ee00bfff266a35a0ffffff09bc093a35a007f5ffffffffffffb49304eeffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8677.0
+2026-10-16 09:07:00.441 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 09:07:02.287 ERROR DriveService: Loop error, reconnecting
+java.io.IOException: Broken pipe
+	at android.net.LocalSocketImpl.writeba_native(Native Method)
+	at android.net.LocalSocketImpl.-$$Nest$mwriteba_native(LocalSocketImpl.java:0)
+	at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+	at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:1142)
+	at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:77)
+	at java.io.OutputStream.write(OutputStream.java:127)
+	at com.victoris.ledger.obd.SppTransport$write$2.invokeSuspend(SppTransport.kt:69)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:8)
+	at com.victoris.ledger.obd.SppTransport$write$2.invoke(SppTransport.kt:4)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)
+	at kotlinx.coroutines.BuildersKt.withContext(dex-id-e1d02585c1a4adc7098351c1eeaa2779455e79c0:1)
+	at com.victoris.ledger.obd.SppTransport.write(SppTransport.kt:68)
+	at com.victoris.ledger.obd.Elm327.command(Elm327.kt:49)
+	at com.victoris.ledger.obd.Elm327.readPid(Elm327.kt:186)
+	at com.victoris.ledger.obd.Elm327.readPid$default(Elm327.kt:185)
+	at com.victoris.ledger.obd.DriveService.safeReadPid(DriveService.kt:1164)
+	at com.victoris.ledger.obd.DriveService.runDriveLoop(DriveService.kt:542)
+	at com.victoris.ledger.obd.DriveService.access$runDriveLoop(DriveService.kt:113)
+	at com.victoris.ledger.obd.DriveService$runDriveLoop$1.invokeSuspend(DriveService.kt:15)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-16 09:10:02.590 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 09:10:02.593 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 09:10:06.422 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff0f7a0f800f6d0f6d0f7a0f800f6d0f6dffffff240b1bffffff001f7b59ff09ff0015ffffffffffffffffff0002ff5900e000bfff262b355cffffff092c0919355c07ecffffffffffffb49304eeffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8683.0
+2026-10-16 09:10:11.935 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 09:12:37.927 INFO DriveService: rounds: avg 1514 ms, fast avg 850 ms, multi=off
+2026-10-16 09:14:43.798 INFO DriveService: rounds: avg 1258 ms, fast avg 718 ms, multi=off
+2026-10-16 09:16:45.407 INFO DriveService: rounds: avg 1216 ms, fast avg 690 ms, multi=off
+2026-10-16 09:18:40.468 INFO DriveService: rounds: avg 1150 ms, fast avg 651 ms, multi=off
+2026-10-16 09:20:40.640 INFO DriveService: rounds: avg 1201 ms, fast avg 671 ms, multi=off
+2026-10-16 09:22:35.285 INFO DriveService: rounds: avg 1146 ms, fast avg 652 ms, multi=off
+2026-10-16 09:23:01.042 INFO DriveService: Trip saved: 5.363899444444448 km
+2026-10-16 09:23:06.235 INFO Sync: Synced trip 1792122000883
+2026-10-16 09:24:47.462 INFO DriveService: rounds: avg 1321 ms, fast avg 711 ms, multi=off
+2026-10-16 09:26:36.977 INFO DriveService: rounds: avg 1095 ms, fast avg 645 ms, multi=off
+2026-10-16 16:36:03.070 INFO Update: APK 86 downloaded: 14.4 MB in 10.4 s (1.38 MB/s)
+2026-10-16 16:39:18.198 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 16:39:18.200 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 16:39:21.375 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff00000000000000000000000000000000ffffff990000ffffff00634949ff18ff0015ffffffffffffffffff0000ff4b00e70084ff262b2ed5ffffff09750b5b2ed507ebffffffffffff000004efffffffff3157313730303035ffffffffff00ff0540ff0030020000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8683.0
+2026-10-16 16:39:26.823 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 16:40:59.398 INFO Nav: Maps step: 23 km | Drive 51 min () | STRAIGHT | -
+2026-10-16 16:41:00.605 INFO Nav: Maps step: 23 km | Drive 50 min () | STRAIGHT | -
+2026-10-16 16:41:18.618 INFO Nav: Maps step: 23 km | Drive 51 min () | STRAIGHT | -
+2026-10-16 16:41:20.389 INFO DriveService: rounds: avg 1190 ms, fast avg 697 ms, multi=off
+2026-10-16 16:42:31.206 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 16:42:31.216 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 16:42:34.198 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff0fa70faa0f970f900000000000000000ffffff4e15caffffff002c534aff1bff0015ffffffffffffffffff0000ff4c00e400b8ff262b3517ffffff09590b46351707eaffffffffffffb49304efffffffff3157313730303035ffffffffff00ff0540ff0010030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8683.0
+2026-10-16 16:42:39.448 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 16:42:45.417 INFO Nav: Maps step: 23 km | Drive 51 min () | STRAIGHT | -
+2026-10-16 16:44:13.016 INFO DriveService: Connected to OBD, timing suffix
+2026-10-16 16:44:13.017 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-16 16:44:15.671 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff14501457144a144714501457144a1447ffffff360aecffffff0029674cff0dff0015ffffffffffffffffff0002ff4b00ed00c3ff25ed356effffff09b10b5e356e07e1ffffffffffffb49304f0ffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8683.0
+2026-10-16 16:44:21.116 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-16 16:44:38.298 INFO Nav: Maps step: 23 km | Drive 50 min () | STRAIGHT | -
+2026-10-16 16:44:44.655 INFO Nav: Maps step: 23 km | Drive 51 min () | STRAIGHT | -
+2026-10-16 16:45:05.594 INFO Nav: Maps step: 23 km | Drive 50 min () | STRAIGHT | -
+2026-10-16 16:45:17.919 INFO Nav: Maps step: - | Starting navigation… | STRAIGHT | -
+2026-10-16 16:45:18.401 INFO Nav: Maps step: - | Head toward सरदार वल्लभ भाई पटेल मार्ग | STRAIGHT | -
+2026-10-16 16:45:19.602 INFO Nav: Maps step: 550 m | Turn left onto सरदार वल्लभ भाई पटेल मार्ग | LEFT | -
+2026-10-16 16:46:27.677 INFO Nav: Maps step: 550 m | At the roundabout, take the 4th exit | ROUNDABOUT_3 | -
+2026-10-16 16:46:33.616 INFO DriveService: rounds: avg 1379 ms, fast avg 780 ms, multi=off
+2026-10-16 16:48:09.651 INFO Nav: Maps step: 120 m | Use any lane to turn left toward Noida-Greater Noida Expy | LEFT | -
+2026-10-16 16:48:19.648 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 16:48:20.258 INFO Nav: Maps step: - | Head northwest on सरदार वल्लभ भाई पटेल मार्ग | STRAIGHT | -
+2026-10-16 16:48:20.649 INFO Nav: Maps step: 2.8 km | Make a U-turn at Jaypee Greens Internal Rd | U_TURN | -
+2026-10-16 16:48:34.914 INFO DriveService: rounds: avg 1212 ms, fast avg 689 ms, multi=off
+2026-10-16 16:49:53.649 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 16:49:54.239 INFO Nav: Maps step: - | Head southeast | STRAIGHT | -
+2026-10-16 16:49:54.675 INFO Nav: Maps step: 170 m | Turn left onto the ramp to सरदार वल्लभ भाई पटेल मार्ग | KEEP_LEFT | -
+2026-10-16 16:50:19.629 INFO Nav: Maps step: - | Use any lane to turn left onto सरदार वल्लभ भाई पटेल मार्ग | LEFT | -
+2026-10-16 16:50:22.654 INFO Nav: Maps step: 2.9 km | At the roundabout, take the 2nd exit | ROUNDABOUT_2 | -
+2026-10-16 16:50:25.669 INFO DriveService: rounds: avg 1107 ms, fast avg 629 ms, multi=off
+2026-10-16 16:50:32.648 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 16:50:33.221 INFO Nav: Maps step: - | Head toward सरदार वल्लभ भाई पटेल मार्ग | STRAIGHT | -
+2026-10-16 16:51:10.684 INFO Nav: Maps step: 7.2 km | Slight left | SLIGHT_LEFT | -
+2026-10-16 16:52:17.527 INFO DriveService: rounds: avg 1118 ms, fast avg 631 ms, multi=off
+2026-10-16 16:54:08.809 INFO DriveService: rounds: avg 1112 ms, fast avg 634 ms, multi=off
+2026-10-16 16:56:06.015 INFO Nav: Maps step: 15 km | Drive 45 min () | STRAIGHT | -
+2026-10-16 16:56:06.339 INFO DriveService: rounds: avg 1175 ms, fast avg 667 ms, multi=off
+2026-10-16 16:56:10.925 INFO Nav: Maps step: - | Starting navigation… | STRAIGHT | -
+2026-10-16 16:56:11.034 INFO Nav: Maps step: - | Head northwest on Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 16:56:11.056 INFO Nav: Maps step: 1.4 km | Take the exit | STRAIGHT | -
+2026-10-16 16:56:23.618 INFO Nav: Maps step: 1.2 km | Take the exit | STRAIGHT | -
+2026-10-16 16:57:51.654 INFO Nav: Maps step: 130 m | Turn left | LEFT | -
+2026-10-16 16:58:01.710 INFO DriveService: rounds: avg 1153 ms, fast avg 644 ms, multi=off
+2026-10-16 16:58:14.634 INFO Nav: Maps step: - | At the roundabout, take the 1st exit | ROUNDABOUT_1 | -
+2026-10-16 16:58:18.707 INFO Nav: Maps step: - | Exit the roundabout | ROUNDABOUT_2 | -
+2026-10-16 16:58:21.627 INFO Nav: Maps step: 2.0 km | At the roundabout, take the 1st exit onto सरदार वल्लभ भाई पटेल मार्ग | ROUNDABOUT_1 | -
+2026-10-16 16:59:21.668 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 16:59:22.461 INFO Nav: Maps step: - | Head toward Noida Expressway Service Rd | STRAIGHT | -
+2026-10-16 16:59:22.659 INFO Nav: Maps step: 400 m | Join with Noida Expressway Service Rd | STRAIGHT | -
+2026-10-16 16:59:53.043 INFO DriveService: rounds: avg 1113 ms, fast avg 641 ms, multi=off
+2026-10-16 17:00:00.627 INFO Nav: Maps step: 1.8 km | At the roundabout, turn left | ROUNDABOUT_1 | -
+2026-10-16 17:01:53.092 INFO DriveService: rounds: avg 1200 ms, fast avg 669 ms, multi=off
+2026-10-16 17:02:15.706 INFO Nav: Maps step: - | Exit the roundabout | ROUNDABOUT_2 | -
+2026-10-16 17:02:17.762 INFO Nav: Maps step: 80 m | Take the ramp to Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 17:02:29.890 INFO Nav: Maps step: 7.1 km | Take the exit toward Sampark Marg | STRAIGHT | -
+2026-10-16 17:03:50.524 INFO DriveService: rounds: avg 1174 ms, fast avg 664 ms, multi=off
+2026-10-16 17:05:45.144 INFO DriveService: rounds: avg 1146 ms, fast avg 649 ms, multi=off
+2026-10-16 17:07:46.620 INFO DriveService: rounds: avg 1214 ms, fast avg 687 ms, multi=off
+2026-10-16 17:09:41.157 INFO DriveService: rounds: avg 1145 ms, fast avg 648 ms, multi=off
+2026-10-16 17:11:12.697 INFO Nav: Maps step: 130 m | Turn left onto Sampark Marg | LEFT | -
+2026-10-16 17:11:36.252 INFO DriveService: rounds: avg 1150 ms, fast avg 652 ms, multi=off
+2026-10-16 17:11:41.674 INFO Nav: Maps step: - | Turn right onto शहीद मंगल पांडे मार्ग | RIGHT | -
+2026-10-16 17:11:50.711 INFO Nav: Maps step: 1.7 km | Turn left | LEFT | -
+2026-10-16 17:13:33.310 INFO DriveService: rounds: avg 1170 ms, fast avg 660 ms, multi=off
+2026-10-16 17:15:31.389 INFO DriveService: rounds: avg 1180 ms, fast avg 661 ms, multi=off
+2026-10-16 17:15:35.866 INFO Nav: Maps step: - | at The Grent | STRAIGHT | -
+2026-10-16 17:15:52.132 INFO Nav: Maps step: 25 km | Drive 1 hr 3 min () | STRAIGHT | -
+2026-10-16 17:15:52.738 INFO Nav: Maps step: - | Starting navigation… | STRAIGHT | -
+2026-10-16 17:15:53.863 INFO Nav: Maps step: - | Head southwest | STRAIGHT | -
+2026-10-16 17:16:09.376 INFO Nav: Maps step: - | Head southwest | STRAIGHT | -
+2026-10-16 17:16:12.167 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 17:16:13.666 INFO Nav: Maps step: - | Head northeast | STRAIGHT | -
+2026-10-16 17:16:13.798 INFO Nav: Maps step: 250 m | Turn left | LEFT | -
+2026-10-16 17:16:14.802 INFO Nav: Maps step: - | Head northeast | STRAIGHT | -
+2026-10-16 17:16:24.884 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 17:16:25.957 INFO Nav: Maps step: - | Head southwest | STRAIGHT | -
+2026-10-16 17:16:26.073 INFO Nav: Maps step: 180 m | Turn right | RIGHT | -
+2026-10-16 17:16:50.695 INFO Nav: Maps step: 200 m | Turn left onto शहीद भगत सिंह मार्ग | LEFT | -
+2026-10-16 17:17:17.670 INFO Nav: Maps step: 250 m | Make a U-turn at शहीद मंगल पांडे मार्ग | U_TURN | -
+2026-10-16 17:17:31.597 INFO DriveService: rounds: avg 1201 ms, fast avg 682 ms, multi=off
+2026-10-16 17:18:01.621 INFO Nav: Maps step: 950 m | Turn left | LEFT | -
+2026-10-16 17:19:24.639 INFO DriveService: rounds: avg 1130 ms, fast avg 647 ms, multi=off
+2026-10-16 17:19:34.603 INFO Nav: Maps step: 700 m | Turn right toward Janpath Marg | RIGHT | -
+2026-10-16 17:20:57.598 INFO Nav: Maps step: 60 m | Turn left onto Janpath Marg | LEFT | -
+2026-10-16 17:21:06.608 INFO Nav: Maps step: 900 m | Turn right onto Sampark Marg | RIGHT | -
+2026-10-16 17:21:18.189 INFO DriveService: rounds: avg 1135 ms, fast avg 637 ms, multi=off
+2026-10-16 17:23:10.345 INFO DriveService: rounds: avg 1121 ms, fast avg 637 ms, multi=off
+2026-10-16 17:25:07.497 INFO DriveService: rounds: avg 1171 ms, fast avg 667 ms, multi=off
+2026-10-16 17:26:59.637 INFO DriveService: rounds: avg 1121 ms, fast avg 638 ms, multi=off
+2026-10-16 17:28:06.652 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 17:28:07.276 INFO Nav: Maps step: - | Head toward Forest Marg | STRAIGHT | -
+2026-10-16 17:28:07.644 INFO Nav: Maps step: 650 m | Make a U-turn at Forest Marg | U_TURN | -
+2026-10-16 17:28:54.009 INFO DriveService: rounds: avg 1143 ms, fast avg 651 ms, multi=off
+2026-10-16 17:29:32.614 INFO Nav: Maps step: 2.1 km | Turn left onto Dadri Main Rd | LEFT | -
+2026-10-16 17:29:36.606 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 17:29:37.175 INFO Nav: Maps step: - | Head toward Sampark Marg | STRAIGHT | -
+2026-10-16 17:29:44.605 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 17:29:45.116 INFO Nav: Maps step: - | Head toward शहीद मंगल पांडे मार्ग | STRAIGHT | -
+2026-10-16 17:29:45.630 INFO Nav: Maps step: 450 m | Turn right onto Noida Expressway Service Rd | RIGHT | -
+2026-10-16 17:30:27.637 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 17:30:28.326 INFO Nav: Maps step: - | Head southwest on Sampark Marg | STRAIGHT | -
+2026-10-16 17:30:28.630 INFO Nav: Maps step: 950 m | Turn left toward शहीद मंगल पांडे मार्ग | LEFT | -
+2026-10-16 17:30:46.573 INFO DriveService: rounds: avg 1125 ms, fast avg 642 ms, multi=off
+2026-10-16 17:30:57.432 INFO Nav: Maps step: - | Starting navigation… | STRAIGHT | -
+2026-10-16 17:30:57.728 INFO Nav: Maps step: - | Head southeast | STRAIGHT | -
+2026-10-16 17:30:58.262 INFO Nav: Maps step: 850 m | Turn left | LEFT | -
+2026-10-16 17:32:51.013 INFO DriveService: rounds: avg 1244 ms, fast avg 706 ms, multi=off
+2026-10-16 17:34:05.653 INFO Nav: Maps step: - | Make a U-turn at शहीद मंगल पांडे मार्ग | U_TURN | -
+2026-10-16 17:34:20.665 INFO Nav: Maps step: 210 m | Turn right | RIGHT | -
+2026-10-16 17:34:53.836 INFO DriveService: rounds: avg 1228 ms, fast avg 695 ms, multi=off
+2026-10-16 17:35:02.613 INFO Nav: Maps step: - | Head toward शहीद मंगल पांडे मार्ग | STRAIGHT | -
+2026-10-16 17:35:27.636 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 17:35:28.255 INFO Nav: Maps step: - | Head toward Service Rd | STRAIGHT | -
+2026-10-16 17:35:28.701 INFO Nav: Maps step: 100 m | Turn right | RIGHT | -
+2026-10-16 17:36:35.647 INFO Nav: Maps step: 1.6 km | Slight right onto the ramp to Noida-Greater Noida Expy | SLIGHT_RIGHT | -
+2026-10-16 17:36:54.950 INFO DriveService: rounds: avg 1211 ms, fast avg 692 ms, multi=off
+2026-10-16 17:38:49.927 INFO DriveService: rounds: avg 1149 ms, fast avg 652 ms, multi=off
+2026-10-16 17:39:19.629 INFO Nav: Maps step: 8.0 km | Continue straight onto Dadri Main Rd/Noida-Greater Noida Expy | STRAIGHT | -
+2026-10-16 17:40:52.113 INFO DriveService: rounds: avg 1221 ms, fast avg 693 ms, multi=off
+2026-10-16 17:42:43.653 INFO DriveService: rounds: avg 1115 ms, fast avg 633 ms, multi=off
+2026-10-16 17:44:36.822 INFO DriveService: rounds: avg 1131 ms, fast avg 637 ms, multi=off
+2026-10-16 17:46:28.722 INFO DriveService: rounds: avg 1118 ms, fast avg 634 ms, multi=off
+2026-10-16 17:48:21.645 INFO DriveService: rounds: avg 1129 ms, fast avg 645 ms, multi=off
+2026-10-16 17:50:14.472 INFO DriveService: rounds: avg 1128 ms, fast avg 633 ms, multi=off
+2026-10-16 17:52:22.668 INFO DriveService: rounds: avg 1281 ms, fast avg 727 ms, multi=off
+2026-10-16 17:54:14.104 INFO DriveService: rounds: avg 1114 ms, fast avg 630 ms, multi=off
+2026-10-16 17:56:05.718 INFO DriveService: rounds: avg 1116 ms, fast avg 634 ms, multi=off
+2026-10-16 17:58:01.593 INFO DriveService: rounds: avg 1158 ms, fast avg 657 ms, multi=off
+2026-10-16 17:59:53.603 INFO DriveService: rounds: avg 1120 ms, fast avg 635 ms, multi=off
+2026-10-16 18:01:46.050 INFO DriveService: rounds: avg 1124 ms, fast avg 634 ms, multi=off
+2026-10-16 18:03:32.619 INFO Nav: Maps step: 1.1 km | Keep right to continue on Dadri Main Rd | KEEP_RIGHT | -
+2026-10-16 18:03:52.378 INFO DriveService: rounds: avg 1263 ms, fast avg 716 ms, multi=off
+2026-10-16 18:05:42.962 INFO DriveService: rounds: avg 1105 ms, fast avg 635 ms, multi=off
+2026-10-16 18:07:06.570 INFO Nav: Maps step: 2.1 km | Keep right to take the flyover | KEEP_RIGHT | -
+2026-10-16 18:07:35.418 INFO DriveService: rounds: avg 1124 ms, fast avg 635 ms, multi=off
+2026-10-16 18:09:28.572 INFO DriveService: rounds: avg 1131 ms, fast avg 641 ms, multi=off
+2026-10-16 18:11:18.736 INFO DriveService: rounds: avg 1101 ms, fast avg 632 ms, multi=off
+2026-10-16 18:13:11.750 INFO DriveService: rounds: avg 1130 ms, fast avg 636 ms, multi=off
+2026-10-16 18:15:16.880 INFO DriveService: rounds: avg 1251 ms, fast avg 707 ms, multi=off
+2026-10-16 18:17:08.145 INFO DriveService: rounds: avg 1112 ms, fast avg 633 ms, multi=off
+2026-10-16 18:19:00.486 INFO DriveService: rounds: avg 1123 ms, fast avg 634 ms, multi=off
+2026-10-16 18:19:24.618 INFO Nav: Maps step: 1.5 km | Take the exit | STRAIGHT | -
+2026-10-16 18:20:51.235 INFO DriveService: rounds: avg 1107 ms, fast avg 638 ms, multi=off
+2026-10-16 18:22:42.912 INFO DriveService: rounds: avg 1116 ms, fast avg 632 ms, multi=off
+2026-10-16 18:23:39.583 INFO Nav: Maps step: 550 m | Keep left | KEEP_LEFT | -
+2026-10-16 18:24:34.913 INFO DriveService: rounds: avg 1119 ms, fast avg 632 ms, multi=off
+2026-10-16 18:24:41.622 INFO Nav: Maps step: 300 m | Slight left | SLIGHT_LEFT | -
+2026-10-16 18:25:10.668 INFO Nav: Maps step: 500 m | At the roundabout, take the 4th exit | ROUNDABOUT_3 | -
+2026-10-16 18:25:54.617 INFO Nav: Maps step: 290 m | Exit the roundabout | ROUNDABOUT_2 | -
+2026-10-16 18:26:29.609 INFO Nav: Maps step: 1.2 km | Continue straight (signs for Ghaziabad) | STRAIGHT | -
+2026-10-16 18:26:41.256 INFO DriveService: rounds: avg 1263 ms, fast avg 718 ms, multi=off
+2026-10-16 18:28:15.628 INFO Nav: Maps step: 300 m | Keep right to take the flyover | KEEP_RIGHT | -
+2026-10-16 18:28:30.994 INFO DriveService: rounds: avg 1097 ms, fast avg 632 ms, multi=off
+2026-10-16 18:30:23.541 INFO DriveService: rounds: avg 1125 ms, fast avg 636 ms, multi=off
+2026-10-16 18:32:10.605 INFO Nav: Maps step: 750 m | Keep left | KEEP_LEFT | -
+2026-10-16 18:32:15.000 INFO DriveService: rounds: avg 1114 ms, fast avg 635 ms, multi=off
+2026-10-16 18:33:21.627 INFO Nav: Maps step: 500 m | At the roundabout, take the 2nd exit | ROUNDABOUT_2 | -
+2026-10-16 18:34:05.861 INFO DriveService: rounds: avg 1108 ms, fast avg 634 ms, multi=off
+2026-10-16 18:35:47.657 INFO Nav: Maps step: 50 m | Exit the roundabout | ROUNDABOUT_2 | -
+2026-10-16 18:35:58.622 INFO DriveService: rounds: avg 1127 ms, fast avg 633 ms, multi=off
+2026-10-16 18:35:59.570 INFO Nav: Maps step: 300 m | Turn left | LEFT | -
+2026-10-16 18:38:04.314 INFO DriveService: rounds: avg 1256 ms, fast avg 713 ms, multi=off
+2026-10-16 18:38:08.630 INFO Nav: Maps step: 150 m | Turn right | RIGHT | -
+2026-10-16 18:39:35.636 INFO Nav: Maps step: - | Rerouting... | STRAIGHT | -
+2026-10-16 18:39:37.033 INFO Nav: Maps step: - | Head north | STRAIGHT | -
+2026-10-16 18:39:37.660 INFO Nav: Maps step: 70 m | Turn right | RIGHT | -
+2026-10-16 18:39:57.883 INFO DriveService: rounds: avg 1135 ms, fast avg 654 ms, multi=off
+2026-10-16 18:40:12.051 INFO DriveService: Trip saved: 48.828201666666686 km
+2026-10-16 18:40:24.210 INFO Sync: Synced trip 1792149250493
+2026-10-16 18:40:43.872 ERROR Sync: Failed to upload CSV trips/VICTORIS/2026-10-16_1792149250493.csv
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 422: {"message":"Invalid request.\n\n\"sha\" wasn't supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:70)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs$default(GitHubUploader.kt:15)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:122)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-16 18:40:58.552 INFO Nav: Maps step: 90 m | Turn left | LEFT | -
+2026-10-16 18:40:59.576 INFO Nav: Maps step: - | Turn right | RIGHT | -

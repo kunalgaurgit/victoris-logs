@@ -138,3 +138,32 @@ java.io.IOException: Broken pipe
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-21 20:07:24.546 INFO DriveService: Reconnected to OBD in loop
+2026-10-21 20:11:42.618 INFO DriveService: Connected to OBD, timing suffix
+2026-10-21 20:11:42.625 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-21 20:11:46.542 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff21ca21fd21cd221321ca21fd21cd2213ffffff6a12dcffffff2844764bff21ff0016ffffffffffffffffff0002ff4e00ff00bbff145934a5ffffff0a570ae434a50522ffffffffffffb493050cffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8899.0
+2026-10-21 20:11:52.323 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-21 20:14:25.746 INFO DriveService: rounds: avg 1591 ms, fast avg 894 ms, multi=off
+2026-10-21 20:16:39.714 INFO DriveService: rounds: avg 1339 ms, fast avg 773 ms, multi=off
+2026-10-21 20:18:51.964 INFO DriveService: rounds: avg 1322 ms, fast avg 754 ms, multi=off
+2026-10-21 20:21:08.558 INFO DriveService: rounds: avg 1365 ms, fast avg 763 ms, multi=off
+2026-10-21 20:23:20.887 INFO DriveService: rounds: avg 1323 ms, fast avg 755 ms, multi=off
+2026-10-21 20:25:35.559 INFO DriveService: rounds: avg 1346 ms, fast avg 764 ms, multi=off
+2026-10-21 20:27:28.945 INFO DriveService: rounds: avg 1133 ms, fast avg 634 ms, multi=off
+2026-10-21 20:29:21.406 INFO DriveService: rounds: avg 1124 ms, fast avg 637 ms, multi=off
+2026-10-21 20:31:13.485 INFO DriveService: rounds: avg 1120 ms, fast avg 638 ms, multi=off
+2026-10-21 20:33:05.614 INFO DriveService: rounds: avg 1121 ms, fast avg 637 ms, multi=off
+2026-10-21 20:34:58.295 INFO DriveService: rounds: avg 1126 ms, fast avg 640 ms, multi=off
+2026-10-21 20:36:50.978 INFO DriveService: rounds: avg 1126 ms, fast avg 640 ms, multi=off
+2026-10-21 20:38:43.552 INFO DriveService: rounds: avg 1125 ms, fast avg 636 ms, multi=off
+2026-10-21 20:40:35.475 INFO DriveService: rounds: avg 1119 ms, fast avg 634 ms, multi=off
+2026-10-21 20:42:27.571 INFO DriveService: rounds: avg 1120 ms, fast avg 635 ms, multi=off
+2026-10-21 20:44:19.815 INFO DriveService: rounds: avg 1122 ms, fast avg 637 ms, multi=off
+2026-10-21 20:46:12.067 INFO DriveService: rounds: avg 1122 ms, fast avg 637 ms, multi=off
+2026-10-21 20:48:04.034 INFO DriveService: rounds: avg 1119 ms, fast avg 636 ms, multi=off
+2026-10-21 20:49:57.185 INFO DriveService: rounds: avg 1131 ms, fast avg 637 ms, multi=off
+2026-10-21 20:51:48.141 INFO DriveService: rounds: avg 1109 ms, fast avg 637 ms, multi=off
+2026-10-21 20:54:02.507 INFO DriveService: rounds: avg 1343 ms, fast avg 759 ms, multi=off
+2026-10-21 20:55:59.234 INFO DriveService: rounds: avg 1167 ms, fast avg 662 ms, multi=off
+2026-10-21 20:56:02.912 INFO DriveService: Trip saved: 20.780532222222206 km
+2026-10-21 20:56:13.265 INFO Sync: Synced trip 1792593699958

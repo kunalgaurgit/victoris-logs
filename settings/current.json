@@ -1,9 +1,9 @@
 {
   "auto_detect_vehicle": true,
   "auto_start_android_auto": true,
-  "car_odo_VICTORIS": 8931,
-  "car_odo_t_VICTORIS": 1792596331084,
-  "cng_last_bar_VICTORIS": 54.4,
+  "car_odo_VICTORIS": 8935,
+  "car_odo_t_VICTORIS": 1792859634345,
+  "cng_last_bar_VICTORIS": 50.25,
   "cruise_allow_3rd": true,
   "cruise_enabled": true,
   "cruise_mode": "ECO",

@@ -128,3 +128,12 @@ java.io.IOException: Broken pipe
 2026-10-24 22:28:40.734 INFO DriveService: rounds: avg 1438 ms, fast avg 815 ms, multi=off
 2026-10-24 22:30:48.194 INFO DriveService: Trip saved: 1.5412758333333318 km
 2026-10-24 22:30:53.060 INFO Sync: Synced trip 1792860135171
+2026-10-24 22:31:08.221 INFO DriveService: rounds: avg 1474 ms, fast avg 851 ms, multi=off
+2026-10-24 22:32:58.826 INFO DriveService: rounds: avg 1105 ms, fast avg 705 ms, multi=off
+2026-10-24 22:33:04.903 INFO DriveService: CNG fill detected: 46.5 -> 171.4 bar
+2026-10-24 22:35:14.215 INFO DriveService: rounds: avg 1353 ms, fast avg 754 ms, multi=off
+2026-10-24 22:37:02.198 INFO DriveService: rounds: avg 1079 ms, fast avg 620 ms, multi=off
+2026-10-24 22:38:51.003 INFO DriveService: rounds: avg 1088 ms, fast avg 621 ms, multi=off
+2026-10-24 22:40:40.241 INFO DriveService: rounds: avg 1092 ms, fast avg 623 ms, multi=off
+2026-10-24 22:40:50.449 INFO DriveService: Trip saved: 2.3874027777777775 km
+2026-10-24 22:40:55.643 INFO Sync: Synced trip 1792861248149

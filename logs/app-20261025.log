@@ -210,3 +210,21 @@ java.io.IOException: Broken pipe
 2026-10-25 16:42:54.825 INFO DriveService: rounds: avg 1146 ms, fast avg 635 ms, multi=off
 2026-10-25 16:44:15.054 INFO DriveService: Trip saved: 6.932846944444446 km
 2026-10-25 16:44:20.532 INFO Sync: Synced trip 1792926105091
+2026-10-25 18:10:29.811 INFO DriveService: Connected to OBD, timing suffix
+2026-10-25 18:10:29.813 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-25 18:12:39.861 INFO DriveService: Connected to OBD, timing suffix
+2026-10-25 18:12:39.863 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-25 18:12:42.665 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff17d7177d179a17ad17d7177d179a17adffffff3c0f03ffffff062c835fff12ff0016ffffffffffffffffff0002ff6800ea00bcff2dfb33fbffffff098f06b333fb0926ffffffffffffb493051affffffff3157313730303035ffffffffff00ff058fff1132030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8981.0
+2026-10-25 18:12:48.176 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-25 18:14:49.359 INFO DriveService: rounds: avg 1266 ms, fast avg 717 ms, multi=off
+2026-10-25 18:17:05.334 INFO DriveService: rounds: avg 1359 ms, fast avg 766 ms, multi=off
+2026-10-25 18:19:18.710 INFO DriveService: rounds: avg 1333 ms, fast avg 756 ms, multi=off
+2026-10-25 18:21:27.097 INFO DriveService: rounds: avg 1283 ms, fast avg 727 ms, multi=off
+2026-10-25 18:23:24.925 INFO DriveService: rounds: avg 1178 ms, fast avg 668 ms, multi=off
+2026-10-25 18:25:25.284 INFO DriveService: rounds: avg 1203 ms, fast avg 683 ms, multi=off
+2026-10-25 18:27:26.221 INFO DriveService: rounds: avg 1209 ms, fast avg 678 ms, multi=off
+2026-10-25 18:29:21.238 INFO DriveService: rounds: avg 1150 ms, fast avg 650 ms, multi=off
+2026-10-25 18:31:12.138 INFO DriveService: rounds: avg 1108 ms, fast avg 634 ms, multi=off
+2026-10-25 18:33:05.162 INFO DriveService: rounds: avg 1130 ms, fast avg 637 ms, multi=off
+2026-10-25 18:34:37.284 INFO DriveService: Trip saved: 4.944288055555554 km
+2026-10-25 18:34:42.636 INFO Sync: Synced trip 1792932156579

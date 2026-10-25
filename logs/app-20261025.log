@@ -1,0 +1,24 @@
+2026-10-25 01:34:51.039 INFO DriveService: Connected to OBD, timing suffix
+2026-10-25 01:34:51.040 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-25 01:34:53.791 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff00000000000000000000000000000000ffffff980000ffffff00634d4aff18ff0016ffffffffffffffffff0000ff4a00e60083ff3f51304cffffff096f0b90304c0bdaffffffffffff00000515ffffffff3157313730303035ffffffffff00ff0540ff0030020000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8928.0
+2026-10-25 01:34:59.672 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-25 01:37:12.134 INFO DriveService: rounds: avg 1383 ms, fast avg 815 ms, multi=off
+2026-10-25 01:39:01.060 INFO DriveService: rounds: avg 1089 ms, fast avg 640 ms, multi=off
+2026-10-25 01:44:22.609 INFO DriveService: Connected to OBD, timing ATAT1 ATST32
+2026-10-25 01:44:22.616 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-25 01:44:25.525 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff00000000000000000000000000000000ffffff8f0000ffffff00634c4bff18ff0016ffffffffffffffffff0202ff49015e00fbff3f322f5affffff0de00bc42f5a0bd4ffffffffffff00000515ffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8928.0
+2026-10-25 01:45:30.283 INFO DriveService: rounds: avg 647 ms, fast avg 324 ms, multi=on
+2026-10-25 01:46:26.704 INFO DriveService: rounds: avg 564 ms, fast avg 272 ms, multi=on
+2026-10-25 01:47:24.349 INFO DriveService: rounds: avg 576 ms, fast avg 269 ms, multi=on
+2026-10-25 01:48:08.090 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-25 01:48:36.608 INFO DriveService: rounds: avg 722 ms, fast avg 392 ms, multi=off
+2026-10-25 09:22:08.354 INFO DriveService: Connected to OBD, timing suffix
+2026-10-25 09:22:08.355 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-25 09:22:11.554 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff0dd70dc00dfa0e270000000000000000ffffff441608ffffff0024403eff19ff0016ffffffffffffffffff0000ff400150012cff3c4435d7ffffff0d600d4035d70b61ffffffffffffb4930516ffffffff3157313730303035ffffffffff00ff0540ff0010030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=8928.0
+2026-10-25 09:22:17.038 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-25 09:24:44.006 INFO DriveService: rounds: avg 1524 ms, fast avg 850 ms, multi=off
+2026-10-25 09:26:50.572 INFO DriveService: rounds: avg 1265 ms, fast avg 718 ms, multi=off
+2026-10-25 09:28:42.354 INFO DriveService: rounds: avg 1117 ms, fast avg 636 ms, multi=off
+2026-10-25 09:30:37.472 INFO DriveService: Trip saved: 3.018777777777778 km
+2026-10-25 09:30:39.572 INFO DriveService: rounds: avg 1172 ms, fast avg 662 ms, multi=off
+2026-10-25 09:30:42.605 INFO Sync: Synced trip 1792900327254

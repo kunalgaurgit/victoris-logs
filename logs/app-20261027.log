@@ -45,3 +45,18 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
 2026-10-27 09:12:41.348 INFO DriveService: rounds: avg 1245 ms, fast avg 744 ms, multi=off
+2026-10-27 09:14:41.755 INFO DriveService: rounds: avg 1203 ms, fast avg 773 ms, multi=off
+2026-10-27 09:16:29.722 INFO DriveService: rounds: avg 1079 ms, fast avg 682 ms, multi=off
+2026-10-27 09:18:34.953 INFO DriveService: Connected to OBD, timing suffix
+2026-10-27 09:18:34.958 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-27 09:18:41.302 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff1a2319f01a1d1a401a2319f01a1d1a40ffffff4908e9ffffff0b3d8360ff10ff0016ffffffffffffffffff0002ff6300f500b8ff0e3e32bfffffff09fa078032bf042effffffffffffb4930522ffffffff3157313730303035ffffffffff00ff058fff0032030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=9098.0
+2026-10-27 09:18:47.637 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-27 09:20:58.289 INFO DriveService: rounds: avg 1369 ms, fast avg 770 ms, multi=off
+2026-10-27 09:22:50.089 INFO DriveService: rounds: avg 1117 ms, fast avg 631 ms, multi=off
+2026-10-27 09:24:41.753 INFO DriveService: rounds: avg 1116 ms, fast avg 634 ms, multi=off
+2026-10-27 09:26:33.411 INFO DriveService: rounds: avg 1116 ms, fast avg 633 ms, multi=off
+2026-10-27 09:28:25.189 INFO DriveService: rounds: avg 1117 ms, fast avg 635 ms, multi=off
+2026-10-27 09:30:16.332 INFO DriveService: rounds: avg 1111 ms, fast avg 631 ms, multi=off
+2026-10-27 09:32:07.411 INFO DriveService: rounds: avg 1110 ms, fast avg 631 ms, multi=off
+2026-10-27 09:33:32.637 INFO DriveService: Trip saved: 5.235438888888897 km
+2026-10-27 09:33:39.975 INFO Sync: Synced trip 1793072911082

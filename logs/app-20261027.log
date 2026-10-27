@@ -30,3 +30,17 @@
 2026-10-27 09:10:36.822 INFO DriveService: rounds: avg 1228 ms, fast avg 678 ms, multi=off
 2026-10-27 09:12:01.472 INFO DriveService: Trip saved: 22.690542222222273 km
 2026-10-27 09:12:07.016 INFO Sync: Synced trip 1793069499991
+2026-10-27 09:12:16.056 ERROR Sync: Failed to upload log app-20261025.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at da39e1e6e346f2412bb475bd6f1eef2e41019e5b but expected a72da1cab14d9ec5360827e6b856ad85bf83446c","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:65)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:64)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs$default(GitHubUploader.kt:15)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:167)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+

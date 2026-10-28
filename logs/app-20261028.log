@@ -5,3 +5,30 @@
 2026-10-28 15:23:22.021 INFO DriveService: rounds: avg 1404 ms, fast avg 798 ms, multi=off
 2026-10-28 15:23:30.588 INFO DriveService: Trip saved: 0.3534441666666666 km
 2026-10-28 15:23:35.616 INFO Sync: Synced trip 1793181052594
+2026-10-28 15:23:45.992 ERROR Sync: Failed to upload log app-20261027.log
+com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"is at fea382ec1b40f0e8c4ce549e54ea7c2efacd3606 but expected 125db7036699982959e95d6966a6baab92df1f2a","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:65)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs(GitHubUploader.kt:64)
+	at com.victoris.ledger.sync.GitHubUploader.uploadFile-bMdYcbs$default(GitHubUploader.kt:15)
+	at com.victoris.ledger.sync.LogSyncWorker.doWork(LogSyncWorker.kt:167)
+	at com.victoris.ledger.sync.LogSyncWorker$doWork$1.invokeSuspend(LogSyncWorker.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:832)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-28 15:25:25.317 INFO DriveService: rounds: avg 1232 ms, fast avg 790 ms, multi=off
+2026-10-28 15:27:18.369 INFO DriveService: rounds: avg 1130 ms, fast avg 718 ms, multi=off
+2026-10-28 15:29:32.278 INFO DriveService: rounds: avg 1339 ms, fast avg 758 ms, multi=off
+2026-10-28 15:31:30.963 INFO DriveService: rounds: avg 1186 ms, fast avg 676 ms, multi=off
+2026-10-28 15:33:25.782 INFO DriveService: rounds: avg 1148 ms, fast avg 656 ms, multi=off
+2026-10-28 15:35:23.243 INFO DriveService: rounds: avg 1174 ms, fast avg 663 ms, multi=off
+2026-10-28 15:37:19.114 INFO DriveService: rounds: avg 1158 ms, fast avg 663 ms, multi=off
+2026-10-28 15:39:16.026 INFO DriveService: rounds: avg 1169 ms, fast avg 664 ms, multi=off
+2026-10-28 15:41:13.585 INFO DriveService: rounds: avg 1175 ms, fast avg 663 ms, multi=off
+2026-10-28 15:43:08.645 INFO DriveService: rounds: avg 1150 ms, fast avg 653 ms, multi=off
+2026-10-28 15:45:03.378 INFO DriveService: rounds: avg 1147 ms, fast avg 657 ms, multi=off
+2026-10-28 15:46:41.329 INFO DriveService: Trip saved: 2.3811383333333342 km
+2026-10-28 15:46:48.201 INFO Sync: Synced trip 1793181210555

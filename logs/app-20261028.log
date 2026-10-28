@@ -166,3 +166,41 @@ java.io.IOException: Broken pipe
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
 
+2026-10-28 20:09:06.490 ERROR DriveService: Connection failed, reconnecting
+com.victoris.ledger.obd.ObdTimeoutException: Timeout waiting for descriptor write
+	at com.victoris.ledger.obd.BleTransport.connect(BleTransport.kt:120)
+	at com.victoris.ledger.obd.BleTransport$connect$1.invokeSuspend(BleTransport.kt:14)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:28)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:100)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:99)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:589)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:823)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:720)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:707)
+
+2026-10-28 20:09:13.994 INFO DriveService: Reconnected to OBD
+2026-10-28 20:09:13.995 INFO DriveService: Multi-PID on for 00:10:CC:4F:36:03
+2026-10-28 20:09:16.721 INFO ExtLevels: probe: 7E0 22F42F=7E8037F2231; 7E0 22002F=7E8037F2231; 7C0 221022=NO DATA; 720 2261B1=NO DATA; 700 22113C=NO DATA; 700 2211C4=NO DATA; 700 221F6D=NO DATA; 700 2210CD=NO DATA; 7E0 22F4A6=7E8037F2231; 720 22DD01=NO DATA; 7E6 2100=OK 6100ffffffffffffffffffffffffffffff20332043204720302033204320472030ffffff601eb3ffffff323a8046ff24ff0017ffffffffffffffffff0002ff5800f900c0ff2c073420ffffff0a210921342008d7ffffffffffffb4930529ffffffff3157313730303035ffffffffff00ff058fff0432030000ffffffffffffffffffffffffffffffffffffffffffffffffff; PID31=9161.0
+2026-10-28 20:09:22.069 INFO DriveService: Multi-PID disabled for this session after 3 failures
+2026-10-28 20:11:23.866 INFO DriveService: rounds: avg 1270 ms, fast avg 708 ms, multi=off
+2026-10-28 20:13:20.690 INFO DriveService: rounds: avg 1168 ms, fast avg 665 ms, multi=off
+2026-10-28 20:15:10.176 INFO DriveService: rounds: avg 1094 ms, fast avg 628 ms, multi=off
+2026-10-28 20:16:06.937 INFO DriveService: CNG run-out detected (VICTORIS), tank anchor reset to empty
+2026-10-28 20:17:02.340 INFO DriveService: rounds: avg 1121 ms, fast avg 630 ms, multi=off
+2026-10-28 20:18:55.164 INFO DriveService: rounds: avg 1128 ms, fast avg 649 ms, multi=off
+2026-10-28 20:20:47.646 INFO DriveService: rounds: avg 1124 ms, fast avg 639 ms, multi=off
+2026-10-28 20:22:41.475 INFO DriveService: rounds: avg 1138 ms, fast avg 639 ms, multi=off
+2026-10-28 20:24:34.940 INFO DriveService: rounds: avg 1134 ms, fast avg 643 ms, multi=off
+2026-10-28 20:26:25.285 INFO DriveService: rounds: avg 1103 ms, fast avg 634 ms, multi=off
+2026-10-28 20:28:24.536 INFO DriveService: rounds: avg 1192 ms, fast avg 675 ms, multi=off
+2026-10-28 20:30:26.599 INFO DriveService: rounds: avg 1220 ms, fast avg 689 ms, multi=off
+2026-10-28 20:32:16.842 INFO DriveService: rounds: avg 1102 ms, fast avg 624 ms, multi=off
+2026-10-28 20:34:08.398 INFO DriveService: rounds: avg 1115 ms, fast avg 633 ms, multi=off
+2026-10-28 20:36:00.405 INFO DriveService: rounds: avg 1120 ms, fast avg 638 ms, multi=off
+2026-10-28 20:37:50.862 INFO DriveService: rounds: avg 1104 ms, fast avg 628 ms, multi=off
+2026-10-28 20:38:28.210 INFO DriveService: Trip saved: 12.282303888888894 km
+2026-10-28 20:38:35.950 INFO Sync: Synced trip 1793198340936

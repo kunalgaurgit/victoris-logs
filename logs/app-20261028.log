@@ -33,3 +33,11 @@ com.victoris.ledger.sync.GitHubUploader$UploadException: HTTP 409: {"message":"i
 2026-10-28 15:46:41.329 INFO DriveService: Trip saved: 2.3811383333333342 km
 2026-10-28 15:46:48.201 INFO Sync: Synced trip 1793181210555
 2026-10-28 15:47:03.104 INFO DriveService: rounds: avg 1197 ms, fast avg 697 ms, multi=off
+2026-10-28 15:48:50.585 INFO DriveService: rounds: avg 1074 ms, fast avg 684 ms, multi=off
+2026-10-28 15:49:29.179 INFO DriveService: CNG fill detected: 35.4 -> 150.05 bar
+2026-10-28 15:50:58.068 INFO DriveService: rounds: avg 1274 ms, fast avg 747 ms, multi=off
+2026-10-28 15:53:03.342 INFO DriveService: rounds: avg 1252 ms, fast avg 708 ms, multi=off
+2026-10-28 15:55:00.819 INFO DriveService: rounds: avg 1174 ms, fast avg 665 ms, multi=off
+2026-10-28 15:56:58.989 INFO DriveService: rounds: avg 1181 ms, fast avg 669 ms, multi=off
+2026-10-28 15:58:01.499 INFO DriveService: Trip saved: 2.3956061111111095 km
+2026-10-28 15:58:06.994 INFO Sync: Synced trip 1793182601264

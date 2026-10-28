@@ -1,0 +1,23 @@
+{
+  "startMs": 1793181052594,
+  "endMs": 1793181210557,
+  "petrolKm": 0.08561194444444443,
+  "cngKm": 0.2678322222222222,
+  "petrolRawL": 0.009674852488814317,
+  "cngRawKg": 0.023403487790697675,
+  "econScore": 94.76494733066777,
+  "avgSpeed": 8.055044535745711,
+  "maxSpeed": 37,
+  "costRs": 3.3676536813904976,
+  "trackFile": "1793181052594.csv",
+  "vehicle": "VICTORIS",
+  "cruiseLockCount": 0,
+  "cruiseLockedS": 0,
+  "lugPct": 67.27710230099143,
+  "idlePct": 28.3102863025514,
+  "hardAccelPer100": 0,
+  "hardBrakePer100": 0,
+  "inGearCoastS": 0,
+  "neutralCoastS": 0,
+  "fills": []
+}
